@@ -4,5 +4,11 @@
     "name": "First Collection",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
-  "item": []
+  "item": [
+    {
+      "name": "New Folder",
+      "item": [],
+      "id": "3d912461-31b8-4fe9-b399-4f4388ff6151"
+    }
+  ]
 }
