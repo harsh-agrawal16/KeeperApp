@@ -9,7 +9,7 @@
       "name": "TravelBest",
       "item": [
         {
-          "name": "New Request",
+          "name": "Get List of Attractions",
           "id": "8ecea91e-85d4-42db-bace-be5098775111",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
