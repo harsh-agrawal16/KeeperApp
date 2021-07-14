@@ -36,6 +36,19 @@
             "url": "https://travel-advisor.p.rapidapi.com/attraction-filters/v2/list"
           },
           "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "423a8905-a7b6-4a2b-9109-780b915503b6",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
         }
       ],
       "id": "3d912461-31b8-4fe9-b399-4f4388ff6151"
