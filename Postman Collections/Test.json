@@ -96,7 +96,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Get My Commands",
           "id": "7c92afc1-70a6-423a-95ac-59cbb338475a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
