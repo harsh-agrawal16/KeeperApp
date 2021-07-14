@@ -184,6 +184,19 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "firstcommand",
+          "id": "1880e600-3e25-4d7e-9416-b1a8b0ba6946",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "https://api.telegram.org/firstcommand"
+          },
+          "response": []
         }
       ],
       "id": "189b62ab-cebb-4081-aacf-efcedd003842"
