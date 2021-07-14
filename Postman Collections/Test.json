@@ -51,8 +51,19 @@
           },
           "request": {
             "method": "GET",
-            "header": [],
-            "url": null
+            "header": [
+              {
+                "key": "X-RapidAPI-Key",
+                "value": "d174b3d007msh5ee97961f5cd71bp1e2cd1jsnc7353df136ea",
+                "type": "text"
+              },
+              {
+                "key": "X-RapidAPI-Host",
+                "value": "travel-advisory.p.rapidapi.com",
+                "type": "text"
+              }
+            ],
+            "url": "https://www.travel-advisory.info/api"
           },
           "response": []
         },
