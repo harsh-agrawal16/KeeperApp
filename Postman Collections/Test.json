@@ -38,7 +38,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Generate Token",
           "id": "423a8905-a7b6-4a2b-9109-780b915503b6",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
