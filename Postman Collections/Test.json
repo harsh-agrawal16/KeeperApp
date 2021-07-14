@@ -76,7 +76,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": "{{baseURL}}/bot1607707184:AAFJB3KhG21Xe94L01zBp43smyvOj8pCLfI/getMe"
+            "url": "{{ baseURL }}/bot1607707184:AAFJB3KhG21Xe94L01zBp43smyvOj8pCLfI/getMe"
           },
           "response": []
         },
