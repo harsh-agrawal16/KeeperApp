@@ -55,6 +55,19 @@
             "url": null
           },
           "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "eb1ea409-55e1-4b91-83ba-77f71b870ee9",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
         }
       ],
       "id": "189b62ab-cebb-4081-aacf-efcedd003842"
