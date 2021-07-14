@@ -150,9 +150,38 @@
             "disableBodyPruning": true
           },
           "request": {
-            "method": "GET",
+            "method": "POST",
             "header": [],
-            "url": null
+            "body": {
+              "mode": "raw",
+              "raw": "[\n    {\n        \"command\" : \"getLocations\",\n        \"description\":\"This command gives the list of the top destinations nearby\"\n    }\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://api.telegram.org/bot1607707184:AAFJB3KhG21Xe94L01zBp43smyvOj8pCLfI/setMyCommands",
+              "protocol": "https",
+              "host": [
+                "api",
+                "telegram",
+                "org"
+              ],
+              "path": [
+                "bot1607707184:AAFJB3KhG21Xe94L01zBp43smyvOj8pCLfI",
+                "setMyCommands"
+              ],
+              "query": [
+                {
+                  "key": "commands",
+                  "value": "[{\"command\" : \"getLocations\", \"description\":\"This command gives the list of the top destinations nearby\"}]",
+                  "type": "text",
+                  "disabled": true
+                }
+              ]
+            }
           },
           "response": []
         }
