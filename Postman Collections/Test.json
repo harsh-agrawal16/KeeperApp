@@ -90,27 +90,21 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "https://api.telegram.org/bot1607707184:AAFJB3KhG21Xe94L01zBp43smyvOj8pCLfI/sendMessage?chat_id=1349120162&text=Hello Buddy",
-              "protocol": "https",
+              "raw": "{{baseURL}}/sendMessage?chat_id=1349120162&text=Hello Buddy",
               "host": [
-                "api",
-                "telegram",
-                "org"
+                "{{baseURL}}"
               ],
               "path": [
-                "bot1607707184:AAFJB3KhG21Xe94L01zBp43smyvOj8pCLfI",
                 "sendMessage"
               ],
               "query": [
                 {
                   "key": "chat_id",
-                  "value": "1349120162",
-                  "type": "text"
+                  "value": "1349120162"
                 },
                 {
                   "key": "text",
-                  "value": "Hello Buddy",
-                  "type": "text"
+                  "value": "Hello Buddy"
                 }
               ]
             }
