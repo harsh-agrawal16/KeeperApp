@@ -139,7 +139,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": "https://api.telegram.org/bot1607707184:AAFJB3KhG21Xe94L01zBp43smyvOj8pCLfI/getMyCommands"
           },
           "response": []
         },
