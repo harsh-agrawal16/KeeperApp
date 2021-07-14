@@ -109,7 +109,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Set My Commands",
           "id": "b53d53d3-e891-4304-adde-77b38cd9d1dd",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
