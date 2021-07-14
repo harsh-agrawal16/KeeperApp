@@ -42,7 +42,21 @@
     },
     {
       "name": "Telegram Bot",
-      "item": [],
+      "item": [
+        {
+          "name": "New Request",
+          "id": "17957a0a-0f3a-4d2d-b9cb-7406e493c895",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        }
+      ],
       "id": "189b62ab-cebb-4081-aacf-efcedd003842"
     }
   ]
