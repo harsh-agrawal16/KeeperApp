@@ -162,15 +162,11 @@
               }
             },
             "url": {
-              "raw": "https://api.telegram.org/bot1607707184:AAFJB3KhG21Xe94L01zBp43smyvOj8pCLfI/setMyCommands",
-              "protocol": "https",
+              "raw": "{{baseURL}}/setMyCommands",
               "host": [
-                "api",
-                "telegram",
-                "org"
+                "{{baseURL}}"
               ],
               "path": [
-                "bot1607707184:AAFJB3KhG21Xe94L01zBp43smyvOj8pCLfI",
                 "setMyCommands"
               ],
               "query": [
