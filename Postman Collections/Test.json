@@ -70,7 +70,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Send Message",
           "id": "9ef91f2e-de64-4983-b51f-b3d86f6e3651",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
