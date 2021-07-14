@@ -57,7 +57,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "getMe",
           "id": "eb1ea409-55e1-4b91-83ba-77f71b870ee9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
