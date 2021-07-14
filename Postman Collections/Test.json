@@ -83,7 +83,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Get Updates",
           "id": "7b64f133-40b7-48a0-99c6-333a77a48001",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
