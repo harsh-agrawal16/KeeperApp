@@ -607,7 +607,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseURL}}/setWebhook?url=https://1170df8975f3.ngrok.io",
+              "raw": "{{baseURL}}/setWebhook?url=https://1170df8975f3.ngrok.io&drop_pending_updates=True",
               "host": [
                 "{{baseURL}}"
               ],
@@ -618,6 +618,11 @@
                 {
                   "key": "url",
                   "value": "https://1170df8975f3.ngrok.io"
+                },
+                {
+                  "key": "drop_pending_updates",
+                  "value": "True",
+                  "type": "text"
                 }
               ]
             }
@@ -656,12 +661,12 @@
   ],
   "variable": [
     {
-      "id": "e133c1b1-3cb6-4f17-9324-5a3a640ab75d",
+      "id": "237a05e7-5259-4c2e-a81e-1e6c40267ad6",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "20fe248c-424b-4b42-b64e-db6407169956",
+      "id": "e058fec4-8321-421d-a8e0-8d07e6671d0b",
       "key": "targetUserChatId",
       "value": ""
     }
