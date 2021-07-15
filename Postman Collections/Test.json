@@ -321,6 +321,49 @@
           "response": []
         },
         {
+          "name": "Send Message Copy",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "ec8780e4-47eb-4e9b-b3fc-fd466b945566",
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "id": "288de423-7a06-4c8b-8de3-3d18bffee3b5",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/sendMessage?chat_id={{targetUserChatId}}&text=Hey!!!!I have received your command and I am working on it. Finding point of attractions for {{location}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "sendMessage"
+              ],
+              "query": [
+                {
+                  "key": "chat_id",
+                  "value": "{{targetUserChatId}}"
+                },
+                {
+                  "key": "text",
+                  "value": "Hey!!!!I have received your command and I am working on it. Finding point of attractions for {{location}}"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
           "name": "Get Updates",
           "event": [
             {
@@ -463,12 +506,12 @@
   ],
   "variable": [
     {
-      "id": "f609ef97-189c-4ea9-a096-adbc2afbb053",
+      "id": "337750f9-1df5-4786-9392-a150171a08be",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "c1c2b609-10d0-4204-b74b-2541421a2ba2",
+      "id": "0b762448-071e-4f0a-9e6f-a9a6f1f13ec0",
       "key": "targetUserChatId",
       "value": ""
     }
