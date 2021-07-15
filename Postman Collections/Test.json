@@ -273,7 +273,22 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": {
+              "raw": "{{baseURL}}/setWebhook?url=https://1cbfd5f5e239.ngrok.io/",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "setWebhook"
+              ],
+              "query": [
+                {
+                  "key": "url",
+                  "value": "https://1cbfd5f5e239.ngrok.io/",
+                  "type": "text"
+                }
+              ]
+            }
           },
           "response": []
         }
