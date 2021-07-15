@@ -341,8 +341,13 @@
   ],
   "variable": [
     {
-      "id": "7f7c2d7d-5cc4-4577-bf94-db7fbab368ad",
+      "id": "1689ddef-d776-4201-b616-8bc1b8c0d0a7",
       "key": "targetUser",
+      "value": ""
+    },
+    {
+      "id": "7ccd4111-23cc-44c5-a421-bcc1fe87bab1",
+      "key": "targetUserChatId",
       "value": ""
     }
   ]
