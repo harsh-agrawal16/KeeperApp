@@ -161,10 +161,21 @@
                   "    }",
                   "",
                   "    pm.environment.set('poi', pois[0])",
+                  "    pm.environment.set('x', 0)",
                   "    // console.log(pois)",
                   "    // pm.environment.set('message', pois.toString())",
                   "    // console.log(pois.toString())",
                   "}"
+                ],
+                "type": "text/javascript"
+              }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "f1484347-1a73-4322-9825-980aaaa815f7",
+                "exec": [
+                  ""
                 ],
                 "type": "text/javascript"
               }
@@ -616,12 +627,12 @@
   ],
   "variable": [
     {
-      "id": "2ab24ceb-0275-4cbf-b79c-4d8cecd79838",
+      "id": "4c85cb1d-01a5-4bc2-b53e-c5c65c1fc7f0",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "1dddfd80-63d6-4aff-ad4f-e46795912612",
+      "id": "dc35c335-6a80-4744-ac73-9b49e1e30ce3",
       "key": "targetUserChatId",
       "value": ""
     }
