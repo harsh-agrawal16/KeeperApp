@@ -299,7 +299,7 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "{{baseURL}}/sendMessage?chat_id={{targetUserChatId}}&text=Hey!!!!I have received your command and I am working on it. Finding point of attractions for {{location}}",
+              "raw": "{{baseURL}}/sendMessage?chat_id={{targetUserChatId}}&text={{message}}",
               "host": [
                 "{{baseURL}}"
               ],
@@ -313,7 +313,7 @@
                 },
                 {
                   "key": "text",
-                  "value": "Hey!!!!I have received your command and I am working on it. Finding point of attractions for {{location}}"
+                  "value": "{{message}}"
                 }
               ]
             }
@@ -506,12 +506,12 @@
   ],
   "variable": [
     {
-      "id": "16cfccb7-967f-488a-ac60-d9ca5476c10b",
+      "id": "5068622c-99bb-48e6-bd83-d6d31485a622",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "0555c72f-ff1d-4532-9de3-4fa15da9bd84",
+      "id": "6c1b23e7-eeeb-4998-95de-0df9ce2437c0",
       "key": "targetUserChatId",
       "value": ""
     }
