@@ -306,7 +306,7 @@
               "script": {
                 "id": "893664bf-b024-425a-9cb8-327e9e94c15c",
                 "exec": [
-                  "if(pm.environment.get('x') <= 9){",
+                  "if(pm.environment.get('x') <= 7){",
                   "    pm.environment.set('x', pm.environment.get('x') + 1)",
                   "    postman.setNextRequest('Search Images')",
                   "}",
@@ -656,12 +656,12 @@
   ],
   "variable": [
     {
-      "id": "9e23f810-ef73-47fa-8c94-4bd73bb01ef9",
+      "id": "491a2881-0529-45e5-adbd-7af52c93c463",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "37e90dc1-15d6-4b36-9d15-86d99bf2c86f",
+      "id": "910b7d4f-cd78-430c-aa61-43f94406ba17",
       "key": "targetUserChatId",
       "value": ""
     }
