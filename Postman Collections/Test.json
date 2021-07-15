@@ -383,6 +383,16 @@
                 ],
                 "type": "text/javascript"
               }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "25624b3f-2e95-4608-8cad-18cba5cac90a",
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript"
+              }
             }
           ],
           "id": "7b64f133-40b7-48a0-99c6-333a77a48001",
@@ -506,12 +516,12 @@
   ],
   "variable": [
     {
-      "id": "68f8568c-a28c-4a23-ae30-d6309bed8bd5",
+      "id": "3ced2a0c-1d73-419c-bc9d-d5108c026e78",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "7500ac8a-aa62-441e-b626-a1d7ae86befc",
+      "id": "81c46ad6-1fd5-4eda-9304-ebc0272c0849",
       "key": "targetUserChatId",
       "value": ""
     }
