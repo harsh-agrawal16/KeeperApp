@@ -158,7 +158,6 @@
                   "    for(var i=0;i<locations.length;i++){",
                   "        let poi = locations[i]",
                   "        pois.push(poi.name)",
-                  "        pm.environment.set('message', poi.name)",
                   "    }",
                   "",
                   "    pm.environment.set('poi', pois[0])",
@@ -612,12 +611,12 @@
   ],
   "variable": [
     {
-      "id": "6642ab07-5313-43db-b13a-88067ccbc25e",
+      "id": "87727749-232e-4e9d-817e-b8c8c93fa2c2",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "a7e552f4-d264-4e83-bf43-9ecf34541224",
+      "id": "2b2215f4-234f-4958-8c37-15152ee3d305",
       "key": "targetUserChatId",
       "value": ""
     }
