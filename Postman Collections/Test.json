@@ -220,6 +220,20 @@
         },
         {
           "name": "Search Images",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "c8007d65-0137-4ea5-b0b3-20bc05853c32",
+                "exec": [
+                  "if(pm.response.code === 200){",
+                  "    pm.environment.set('imageURL', pm.response.json().value[0].contentURL)",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
           "id": "0d5a8ab6-8c91-4b7a-b236-00019c48d6de",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -599,12 +613,12 @@
   ],
   "variable": [
     {
-      "id": "b2bf77d7-5551-428d-92ea-3ec29e7e82f3",
+      "id": "b9a56c71-f22c-4db7-9f53-0b08abea3491",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "6d59f7bb-5f70-4530-ae67-6c7c6b164b75",
+      "id": "0d787b73-e02d-4fce-95ff-91db290554c8",
       "key": "targetUserChatId",
       "value": ""
     }
