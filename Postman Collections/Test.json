@@ -211,7 +211,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Get Images",
           "id": "0d5a8ab6-8c91-4b7a-b236-00019c48d6de",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -530,12 +530,12 @@
   ],
   "variable": [
     {
-      "id": "a7c25ec2-cb1d-494f-ba87-ab416a66cf54",
+      "id": "06319c11-e6aa-4d9a-838c-dd5a52a798fc",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "958ec049-0f91-4927-a7d8-8afa530a4926",
+      "id": "1c2ac4c9-dc06-452d-85bc-5f14be4e3329",
       "key": "targetUserChatId",
       "value": ""
     }
