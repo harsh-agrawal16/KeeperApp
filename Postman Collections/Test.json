@@ -65,7 +65,27 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": {
+              "raw": "https://api.mapbox.com/geocoding/v5/mapbox.places/{{location}}.json?access_token=pk.eyJ1IjoiaGFyc2gxNi1iaXRtZXNyYSIsImEiOiJja3E0dGdqZjkxYnpyMm9xcmF3eHRzend6In0.dO790lm2VF9tgPYeXOFDKQ",
+              "protocol": "https",
+              "host": [
+                "api",
+                "mapbox",
+                "com"
+              ],
+              "path": [
+                "geocoding",
+                "v5",
+                "mapbox.places",
+                "{{location}}.json"
+              ],
+              "query": [
+                {
+                  "key": "access_token",
+                  "value": "pk.eyJ1IjoiaGFyc2gxNi1iaXRtZXNyYSIsImEiOiJja3E0dGdqZjkxYnpyMm9xcmF3eHRzend6In0.dO790lm2VF9tgPYeXOFDKQ"
+                }
+              ]
+            }
           },
           "response": []
         }
