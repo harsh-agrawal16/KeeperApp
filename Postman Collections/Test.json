@@ -142,7 +142,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Get Point Of Attractions",
           "id": "6e6b4f17-a6ac-4a2c-884a-db74ad4e94c4",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -383,12 +383,12 @@
   ],
   "variable": [
     {
-      "id": "f2105b38-48d2-4e13-80a8-e8e36e6ad787",
+      "id": "23bc7af0-40cb-476c-9778-a3d938512631",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "10651fa9-604b-4be9-84d4-dfaaca0c58b0",
+      "id": "34de3982-b174-48cd-b07b-c3ad645805e8",
       "key": "targetUserChatId",
       "value": ""
     }
