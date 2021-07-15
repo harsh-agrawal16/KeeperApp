@@ -46,7 +46,7 @@
                 "id": "f6e171f7-9d99-4aef-a2f8-a6815e13026b",
                 "exec": [
                   "if(pm.response.status === 200){",
-                  "    ",
+                  "    pm.environment.set('authToken' , pm.response.json.access_token)",
                   "}"
                 ],
                 "type": "text/javascript"
