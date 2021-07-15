@@ -148,6 +148,12 @@
             "disableBodyPruning": true
           },
           "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "{{authToken}}"
+              }
+            },
             "method": "GET",
             "header": [],
             "url": {
@@ -167,13 +173,11 @@
               "query": [
                 {
                   "key": "latitude",
-                  "value": "{{latitude}}",
-                  "type": "text"
+                  "value": "{{latitude}}"
                 },
                 {
                   "key": "longitude",
-                  "value": "{{longitude}}",
-                  "type": "text"
+                  "value": "{{longitude}}"
                 }
               ]
             }
@@ -437,12 +441,12 @@
   ],
   "variable": [
     {
-      "id": "8c6f1a81-72a2-4841-a938-bf60ace019d7",
+      "id": "7d126abe-05de-4e67-92d6-6436c58a2c41",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "30ecfdf2-a8c8-4af9-863c-5b2dca7b5bd0",
+      "id": "809689eb-138d-4055-afbd-d85b071809fd",
       "key": "targetUserChatId",
       "value": ""
     }
