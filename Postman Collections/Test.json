@@ -300,6 +300,22 @@
         },
         {
           "name": "Send Image",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "893664bf-b024-425a-9cb8-327e9e94c15c",
+                "exec": [
+                  "if(pm.environment.get('x') <= 9){",
+                  "    pm.environment.set('x', pm.environment.get('x') + 1)",
+                  "    postman.setNextRequest('Search Images')",
+                  "}",
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
           "id": "42d0a5fd-083c-4e1a-9115-788a3916126d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -640,12 +656,12 @@
   ],
   "variable": [
     {
-      "id": "8d5c4d9d-3253-4949-9bf6-c57a478aca3a",
+      "id": "5c96a875-02a4-4f3d-ad3c-ab71fccde764",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "7fe1490d-350d-4a5f-b1e8-7299bce62546",
+      "id": "8a23d526-5801-439f-ad7d-d64912609eb6",
       "key": "targetUserChatId",
       "value": ""
     }
