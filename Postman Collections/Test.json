@@ -146,6 +146,25 @@
         },
         {
           "name": "Get Point Of Attractions",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "aa3a20e8-c6e6-4f1e-bd56-a72237f23b1f",
+                "exec": [
+                  "if(pm.response.code === 200){",
+                  "    let locations = pm.response.json().data",
+                  "    let pois = []",
+                  "    for(var i=0;i<locations.length;i++){",
+                  "        let poi = locations[i]",
+                  "        pois.push(poi.name)",
+                  "    }",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
           "id": "6e6b4f17-a6ac-4a2c-884a-db74ad4e94c4",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -442,12 +461,12 @@
   ],
   "variable": [
     {
-      "id": "8c4de288-9d3e-4fc0-84cf-c80bb3022cc9",
+      "id": "40a005e3-1759-406b-a147-edc191298f56",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "34526280-52d8-49cf-a1d4-00d055889def",
+      "id": "0acf79a0-ed4c-4989-928c-91ef03d2bb1b",
       "key": "targetUserChatId",
       "value": ""
     }
