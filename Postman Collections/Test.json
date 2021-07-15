@@ -292,7 +292,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseURL}}/setWebhook?url=https://1cbfd5f5e239.ngrok.io/",
+              "raw": "{{baseURL}}/setWebhook?url=https://57dc8fbabaee.ngrok.io",
               "host": [
                 "{{baseURL}}"
               ],
@@ -302,8 +302,7 @@
               "query": [
                 {
                   "key": "url",
-                  "value": "https://1cbfd5f5e239.ngrok.io/",
-                  "type": "text"
+                  "value": "https://57dc8fbabaee.ngrok.io"
                 }
               ]
             }
@@ -342,7 +341,7 @@
   ],
   "variable": [
     {
-      "id": "6a9d55e8-71f9-43ff-8de5-e3c185c38a2b",
+      "id": "7f7c2d7d-5cc4-4577-bf94-db7fbab368ad",
       "key": "targetUser",
       "value": ""
     }
