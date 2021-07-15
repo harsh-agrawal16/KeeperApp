@@ -224,6 +224,19 @@
             "url": null
           },
           "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "42d0a5fd-083c-4e1a-9115-788a3916126d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
         }
       ],
       "id": "3d912461-31b8-4fe9-b399-4f4388ff6151",
@@ -532,12 +545,12 @@
   ],
   "variable": [
     {
-      "id": "282d9070-a901-4343-99cf-6afeb0d5adae",
+      "id": "c2337ca2-b0f6-430d-bf81-7ef478da35b4",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "c158f573-da07-440a-b35e-d1dc108bd8dc",
+      "id": "57e08f86-51a4-484a-aa8a-14e6d28d9b64",
       "key": "targetUserChatId",
       "value": ""
     }
