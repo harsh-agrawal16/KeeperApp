@@ -160,7 +160,7 @@
                   "        pois.push(poi.name)",
                   "    }",
                   "",
-                  "    pm.environment.set('poi', pois[0])",
+                  "    pm.environment.set('pois', pois)",
                   "    pm.environment.set('x', 0)",
                   "    // console.log(pois)",
                   "    // pm.environment.set('message', pois.toString())",
@@ -627,12 +627,12 @@
   ],
   "variable": [
     {
-      "id": "4c85cb1d-01a5-4bc2-b53e-c5c65c1fc7f0",
+      "id": "88fdcfe2-d118-4183-89cd-5f25490b66fc",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "dc35c335-6a80-4744-ac73-9b49e1e30ce3",
+      "id": "b54933ca-5b3e-4918-81c9-075f8cf77960",
       "key": "targetUserChatId",
       "value": ""
     }
