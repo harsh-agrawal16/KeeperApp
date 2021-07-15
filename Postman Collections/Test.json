@@ -242,6 +242,18 @@
                 ],
                 "type": "text/javascript"
               }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "8f917a50-7c17-4f50-b7d4-83f416bf2a4b",
+                "exec": [
+                  "let locations = pm.environment.get('pois')",
+                  "console.log(locations)",
+                  "pm.environment.set('poi', pm.environment.get(pois[x])"
+                ],
+                "type": "text/javascript"
+              }
             }
           ],
           "id": "0d5a8ab6-8c91-4b7a-b236-00019c48d6de",
@@ -627,12 +639,12 @@
   ],
   "variable": [
     {
-      "id": "d2c73e65-3ef8-49e8-af19-d1e7eef6f91c",
+      "id": "d860fdc3-ab1a-4aca-b3da-1ba746ad9a32",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "2c6b4f88-2047-46ac-abb4-655fcad294a0",
+      "id": "eb43b821-aab0-44a2-bc7e-c1b26d77a7f0",
       "key": "targetUserChatId",
       "value": ""
     }
