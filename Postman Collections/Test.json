@@ -213,9 +213,7 @@
                   "    let length = updates.length",
                   "    let latestUpdate = updates[length - 1]",
                   "    console.log(latestUpdate.message.from.id)",
-                  "",
-                  "    console.log(updates[length - 1])",
-                  "    pm.collectionVariables.set(\"targetUser\", updates[length]);",
+                  "    pm.collectionVariables.set(\"targetUserChatId\", latestUpdate.message.from.id);",
                   "}"
                 ],
                 "type": "text/javascript"
@@ -344,7 +342,7 @@
   ],
   "variable": [
     {
-      "id": "d8f76d7f-d6f1-4d9c-bb02-d3ff07b45b5c",
+      "id": "455c82ca-6ffb-4878-9ed0-76feb1bd98a9",
       "key": "targetUser",
       "value": ""
     }
