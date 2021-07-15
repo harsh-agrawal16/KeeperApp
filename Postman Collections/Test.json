@@ -226,7 +226,7 @@
                 "exec": [
                   "if(pm.response.code === 200){",
                   "    pm.environment.set('imageURL', pm.response.json().value[0].contentURL)",
-                  "    console.log(pm.response.json().value[0])",
+                  "    console.log(pm.response.json().value[0].contentUrl)",
                   "}"
                 ],
                 "type": "text/javascript"
@@ -616,12 +616,12 @@
   ],
   "variable": [
     {
-      "id": "80500512-a5bc-49ce-adb7-6de61c1abcf2",
+      "id": "5fc15d04-d72c-415d-9e41-9a44e2e7e6ce",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "2ee3dead-0763-4269-aead-699ca5f07a0f",
+      "id": "304674fd-7750-4537-b38b-1c3f9c08124b",
       "key": "targetUserChatId",
       "value": ""
     }
