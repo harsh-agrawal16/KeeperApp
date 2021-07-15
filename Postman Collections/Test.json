@@ -283,7 +283,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseURL}}/sendPhoto?chat_id={{targetUserChatId}}&photo={{imageURL}}",
+              "raw": "{{baseURL}}/sendPhoto?chat_id={{targetUserChatId}}&photo={{imageURL}}&caption={{caption}}",
               "host": [
                 "{{baseURL}}"
               ],
@@ -298,6 +298,11 @@
                 {
                   "key": "photo",
                   "value": "{{imageURL}}"
+                },
+                {
+                  "key": "caption",
+                  "value": "{{caption}}",
+                  "type": "text"
                 }
               ]
             }
@@ -611,12 +616,12 @@
   ],
   "variable": [
     {
-      "id": "87727749-232e-4e9d-817e-b8c8c93fa2c2",
+      "id": "690bc654-01b6-4238-a1c1-0f3999c45ed9",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "2b2215f4-234f-4958-8c37-15152ee3d305",
+      "id": "ba20ac1b-70e4-4409-bce4-4be4738fdb95",
       "key": "targetUserChatId",
       "value": ""
     }
