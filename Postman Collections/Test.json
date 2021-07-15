@@ -191,16 +191,13 @@
       ],
       "id": "3d912461-31b8-4fe9-b399-4f4388ff6151",
       "auth": {
-        "type": "bearer",
-        "bearer": {
-          "token": "{{authToken}}"
-        }
+        "type": "noauth"
       },
       "event": [
         {
           "listen": "prerequest",
           "script": {
-            "id": "f191631d-73ac-4e5d-bfeb-e7b6d1f4f558",
+            "id": "78c809bd-d6f4-4a94-8ed8-d7dfd1c03965",
             "type": "text/javascript",
             "exec": [
               ""
@@ -210,7 +207,7 @@
         {
           "listen": "test",
           "script": {
-            "id": "683f012e-511d-4758-97ca-4dd504f86e96",
+            "id": "b1c62682-03fb-4f0e-a196-b605d7180307",
             "type": "text/javascript",
             "exec": [
               ""
@@ -445,12 +442,12 @@
   ],
   "variable": [
     {
-      "id": "ae83b25a-dc01-45cc-97aa-a930122c4200",
+      "id": "8c4de288-9d3e-4fc0-84cf-c80bb3022cc9",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "f51f8c40-6361-4df1-bfc9-2788372beeb1",
+      "id": "34526280-52d8-49cf-a1d4-00d055889def",
       "key": "targetUserChatId",
       "value": ""
     }
