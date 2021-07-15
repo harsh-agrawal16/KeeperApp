@@ -227,7 +227,27 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": {
+              "raw": "https://bing-image-search1.p.rapidapi.com/images/search?q={{poi}}",
+              "protocol": "https",
+              "host": [
+                "bing-image-search1",
+                "p",
+                "rapidapi",
+                "com"
+              ],
+              "path": [
+                "images",
+                "search"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "{{poi}}",
+                  "type": "text"
+                }
+              ]
+            }
           },
           "response": []
         },
@@ -569,12 +589,12 @@
   ],
   "variable": [
     {
-      "id": "566db7d2-752a-42e7-a4f5-88c514289894",
+      "id": "e0c9ef65-dddd-4f31-8eba-da8135d3d2d8",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "1eb4cfec-0219-451e-8a48-8d2571e1ae38",
+      "id": "1d04b8c6-1294-41f0-85bf-b195466930b9",
       "key": "targetUserChatId",
       "value": ""
     }
