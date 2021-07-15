@@ -159,7 +159,7 @@
                   "        let poi = locations[i]",
                   "        pois.push(poi.name)",
                   "    }",
-                  "",
+                  "    console.log(pois)",
                   "    pm.environment.set('pois', pois)",
                   "    pm.environment.set('x', 0)",
                   "    // console.log(pois)",
@@ -656,12 +656,12 @@
   ],
   "variable": [
     {
-      "id": "491a2881-0529-45e5-adbd-7af52c93c463",
+      "id": "246d4b94-3741-4e11-8f93-ada65cb56632",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "910b7d4f-cd78-430c-aa61-43f94406ba17",
+      "id": "b3c52016-d616-41f9-896a-23d87d92fd38",
       "key": "targetUserChatId",
       "value": ""
     }
