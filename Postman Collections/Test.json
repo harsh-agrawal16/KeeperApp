@@ -306,7 +306,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Get Webhok Info",
           "id": "430acbd2-85d0-48c0-be50-4dac52f12f3c",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
