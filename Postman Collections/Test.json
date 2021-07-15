@@ -48,7 +48,8 @@
                   "if(pm.response.status === 200){",
                   "    pm.environment.set('authToken' , pm.response.json().access_token)",
                   "}",
-                  ""
+                  "",
+                  "console.log(pm.response)"
                 ],
                 "type": "text/javascript"
               }
