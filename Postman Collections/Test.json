@@ -293,7 +293,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Delete Webhook",
           "id": "0245d7ed-c5a4-425c-9d8b-589fc981da09",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
