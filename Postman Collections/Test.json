@@ -102,7 +102,6 @@
                 "id": "02eae484-e1bd-4f2e-9206-a6b6b5edeb31",
                 "exec": [
                   "if(pm.response.code === 200){",
-                  "    console.log(pm.response)",
                   "    pm.environment.set('latitude', pm.response.json().features[0].center[1])",
                   "    pm.environment.set('longitude', pm.response.json().features[0].center[0])",
                   "}"
@@ -371,12 +370,12 @@
   ],
   "variable": [
     {
-      "id": "cabe992d-dfad-47ed-ae72-64c98cd42af4",
+      "id": "28cdcddd-620b-40d7-8389-0d7d7410eb0d",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "984f4869-7271-412c-8bd2-5168cab6fb82",
+      "id": "9372ead4-0459-4306-b193-97168cb1333e",
       "key": "targetUserChatId",
       "value": ""
     }
