@@ -265,7 +265,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Setup WebHook",
           "id": "c641bf61-ceb6-437c-b780-c9aee60fe2f2",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
