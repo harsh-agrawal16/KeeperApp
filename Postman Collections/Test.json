@@ -639,12 +639,12 @@
   ],
   "variable": [
     {
-      "id": "65d81c6c-9afd-4f7a-9d02-5ca1f8088114",
+      "id": "edf3dd6d-4c05-4d04-b22c-63468463f5f9",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "93e86a7e-c63d-4645-a169-73d8e2f16637",
+      "id": "b0d2396f-e2a0-4a46-bbde-1d5e2ece0886",
       "key": "targetUserChatId",
       "value": ""
     }
