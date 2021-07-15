@@ -607,7 +607,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseURL}}/setWebhook?url=https://8c89ba0c7a30.ngrok.io",
+              "raw": "{{baseURL}}/setWebhook?url=https://d1336273f567.ngrok.io",
               "host": [
                 "{{baseURL}}"
               ],
@@ -617,7 +617,7 @@
               "query": [
                 {
                   "key": "url",
-                  "value": "https://8c89ba0c7a30.ngrok.io"
+                  "value": "https://d1336273f567.ngrok.io"
                 }
               ]
             }
@@ -656,12 +656,12 @@
   ],
   "variable": [
     {
-      "id": "2496c4cd-8837-4995-802a-89344e93e882",
+      "id": "20313e20-7e31-4169-be8a-50488ef2898b",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "b47be69f-b0f8-477a-8079-c4f0a9c7d937",
+      "id": "8f4d270c-9418-44a4-9229-d749fddd2414",
       "key": "targetUserChatId",
       "value": ""
     }
