@@ -171,6 +171,18 @@
         },
         {
           "name": "Send Message",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "ec8780e4-47eb-4e9b-b3fc-fd466b945566",
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
           "id": "9ef91f2e-de64-4983-b51f-b3d86f6e3651",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -342,12 +354,12 @@
   ],
   "variable": [
     {
-      "id": "ab06196d-a0e4-468f-8351-9b29136bebcf",
+      "id": "3c92addd-1263-4140-982b-3e90072a31ec",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "9837b60c-f767-408b-8190-6d4d715b93cc",
+      "id": "28ffde66-51ba-4f92-be59-8e6c751363ea",
       "key": "targetUserChatId",
       "value": ""
     }
