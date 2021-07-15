@@ -49,7 +49,7 @@
                   "    pm.environment.set('authToken' , pm.response.json().access_token)",
                   "}",
                   "",
-                  "console.log(pm.response)"
+                  "let token = pm.environment.get(\"authToken\");"
                 ],
                 "type": "text/javascript"
               }
