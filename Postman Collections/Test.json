@@ -161,7 +161,7 @@
                   "    }",
                   "    console.log(pois)",
                   "    pm.environment.set('message', pois.toString())",
-                  "    console.log(pois)",
+                  "    console.log(pois.toString())",
                   "}"
                 ],
                 "type": "text/javascript"
@@ -207,6 +207,19 @@
                 }
               ]
             }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "0d5a8ab6-8c91-4b7a-b236-00019c48d6de",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
           },
           "response": []
         }
@@ -517,12 +530,12 @@
   ],
   "variable": [
     {
-      "id": "2b26a062-cd3e-4edb-823d-5c1a047b1684",
+      "id": "f6f81ff8-261b-404c-b629-717ee4714ea4",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "1b730a42-dc73-4e12-a52e-f62e4bd86115",
+      "id": "2e7aff82-1060-4e71-97a1-f716e8a98e3d",
       "key": "targetUserChatId",
       "value": ""
     }
