@@ -209,7 +209,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": "{{ baseURL }}/getUpdates"
+            "url": "{{baseURL}}/getUpdates"
           },
           "response": []
         },
