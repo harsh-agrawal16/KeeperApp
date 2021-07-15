@@ -234,7 +234,25 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": {
+              "raw": "{{baseURL}}/sendMessage?chat_id={{targetUserChatId}}&photo=http://2.bp.blogspot.com/-dn0TXkXVdoY/VNchaXoubBI/AAAAAAAAE7o/Fi_1MAVlLf0/s1600/20120827-DSC_2409.jpg",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "sendMessage"
+              ],
+              "query": [
+                {
+                  "key": "chat_id",
+                  "value": "{{targetUserChatId}}"
+                },
+                {
+                  "key": "photo",
+                  "value": "http://2.bp.blogspot.com/-dn0TXkXVdoY/VNchaXoubBI/AAAAAAAAE7o/Fi_1MAVlLf0/s1600/20120827-DSC_2409.jpg"
+                }
+              ]
+            }
           },
           "response": []
         }
@@ -545,12 +563,12 @@
   ],
   "variable": [
     {
-      "id": "8fc08fbd-7321-4ce2-b485-27155ece899c",
+      "id": "36390327-c28e-41d4-b56e-8d9b0059b187",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "5aec7c66-95be-48a0-ae71-c0984559adaf",
+      "id": "70911bb3-2b5f-4187-8ae1-8b48c7e087a1",
       "key": "targetUserChatId",
       "value": ""
     }
