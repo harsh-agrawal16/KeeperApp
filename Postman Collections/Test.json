@@ -212,6 +212,8 @@
                   "    let updates = pm.response.json().result",
                   "    let length = updates.length",
                   "    console.log(length)",
+                  "",
+                  "    console.log(updates[length-1])",
                   "}"
                 ],
                 "type": "text/javascript"
