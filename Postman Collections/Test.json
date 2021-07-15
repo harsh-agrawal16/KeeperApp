@@ -226,7 +226,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Send Image",
           "id": "42d0a5fd-083c-4e1a-9115-788a3916126d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -545,12 +545,12 @@
   ],
   "variable": [
     {
-      "id": "4f2e64ed-90e4-4d48-9699-87b630efb89e",
+      "id": "8fc08fbd-7321-4ce2-b485-27155ece899c",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "88dac6ae-82d8-4b9e-afbc-127138334ea6",
+      "id": "5aec7c66-95be-48a0-ae71-c0984559adaf",
       "key": "targetUserChatId",
       "value": ""
     }
