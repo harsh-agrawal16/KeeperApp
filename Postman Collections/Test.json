@@ -140,6 +140,19 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "6e6b4f17-a6ac-4a2c-884a-db74ad4e94c4",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
         }
       ],
       "id": "3d912461-31b8-4fe9-b399-4f4388ff6151"
@@ -370,12 +383,12 @@
   ],
   "variable": [
     {
-      "id": "28cdcddd-620b-40d7-8389-0d7d7410eb0d",
+      "id": "ebb8e60e-68cd-4e52-b92a-a9d5948dea6c",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "9372ead4-0459-4306-b193-97168cb1333e",
+      "id": "b781b488-5cea-46a0-a112-dd7749d13119",
       "key": "targetUserChatId",
       "value": ""
     }
