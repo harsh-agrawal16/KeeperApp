@@ -341,5 +341,12 @@
       ],
       "id": "189b62ab-cebb-4081-aacf-efcedd003842"
     }
+  ],
+  "variable": [
+    {
+      "id": "d8f76d7f-d6f1-4d9c-bb02-d3ff07b45b5c",
+      "key": "targetUser",
+      "value": ""
+    }
   ]
 }
