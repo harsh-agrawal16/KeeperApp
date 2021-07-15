@@ -179,7 +179,7 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "{{baseURL}}/sendMessage?chat_id=1349120162&text=Hello Buddy",
+              "raw": "{{baseURL}}/sendMessage?chat_id={{targetUserChatId}}&text=Hey!!!!I have received your command and I am working on it. ",
               "host": [
                 "{{baseURL}}"
               ],
@@ -189,11 +189,11 @@
               "query": [
                 {
                   "key": "chat_id",
-                  "value": "1349120162"
+                  "value": "{{targetUserChatId}}"
                 },
                 {
                   "key": "text",
-                  "value": "Hello Buddy"
+                  "value": "Hey!!!!I have received your command and I am working on it. "
                 }
               ]
             }
@@ -341,12 +341,12 @@
   ],
   "variable": [
     {
-      "id": "e2580500-0b74-4c2d-b932-cf202c202e0e",
+      "id": "a960423c-8bd7-4ef7-b912-a507d0aa133f",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "fb14fab2-f328-4cc1-be74-d1df580b7233",
+      "id": "cc5d3f49-efad-4400-814b-6b368bd27334",
       "key": "targetUserChatId",
       "value": ""
     }
