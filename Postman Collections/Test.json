@@ -202,6 +202,22 @@
         },
         {
           "name": "Get Updates",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "fc9b0cd8-0c37-47a1-a283-3367d8e417af",
+                "exec": [
+                  "if(pm.response.code === 200){",
+                  "    let updates = pm.response.json().result",
+                  "    let length = updates.length",
+                  "    console.log(length)",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
           "id": "7b64f133-40b7-48a0-99c6-333a77a48001",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
