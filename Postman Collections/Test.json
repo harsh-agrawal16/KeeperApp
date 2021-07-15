@@ -211,9 +211,11 @@
                   "if(pm.response.code === 200){",
                   "    let updates = pm.response.json().result",
                   "    let length = updates.length",
-                  "    console.log(length)",
+                  "    let latestUpdate = updates[length - 1]",
+                  "    console.log(latestUpdate.message.from.id)",
                   "",
-                  "    console.log(updates[length-1])",
+                  "    console.log(updates[length - 1])",
+                  "    pm.collectionVariables.set(\"targetUser\", updates[length]);",
                   "}"
                 ],
                 "type": "text/javascript"
