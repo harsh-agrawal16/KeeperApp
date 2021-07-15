@@ -225,7 +225,7 @@
                 "id": "c8007d65-0137-4ea5-b0b3-20bc05853c32",
                 "exec": [
                   "if(pm.response.code === 200){",
-                  "    pm.environment.set('imageURL', pm.response.json().value[0].contentURL)",
+                  "    pm.environment.set('imageURL', pm.response.json().value[0].contentUrl)",
                   "    console.log(pm.response.json().value[0].contentUrl)",
                   "}"
                 ],
@@ -616,12 +616,12 @@
   ],
   "variable": [
     {
-      "id": "5fc15d04-d72c-415d-9e41-9a44e2e7e6ce",
+      "id": "ceec3a19-8751-42a2-b77e-c312ba65ef37",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "304674fd-7750-4537-b38b-1c3f9c08124b",
+      "id": "cba1f23f-1370-415d-b2be-415684f6a395",
       "key": "targetUserChatId",
       "value": ""
     }
