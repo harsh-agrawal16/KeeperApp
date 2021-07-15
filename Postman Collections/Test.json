@@ -226,7 +226,18 @@
           },
           "request": {
             "method": "GET",
-            "header": [],
+            "header": [
+              {
+                "key": "X-RapidAPI-Key",
+                "value": "d174b3d007msh5ee97961f5cd71bp1e2cd1jsnc7353df136ea",
+                "type": "text"
+              },
+              {
+                "key": "X-RapidAPI-Host",
+                "value": "bing-image-search1.p.rapidapi.com",
+                "type": "text"
+              }
+            ],
             "url": {
               "raw": "https://bing-image-search1.p.rapidapi.com/images/search?q={{poi}}",
               "protocol": "https",
@@ -243,8 +254,7 @@
               "query": [
                 {
                   "key": "q",
-                  "value": "{{poi}}",
-                  "type": "text"
+                  "value": "{{poi}}"
                 }
               ]
             }
@@ -589,12 +599,12 @@
   ],
   "variable": [
     {
-      "id": "e0c9ef65-dddd-4f31-8eba-da8135d3d2d8",
+      "id": "b2bf77d7-5551-428d-92ea-3ec29e7e82f3",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "1d04b8c6-1294-41f0-85bf-b195466930b9",
+      "id": "6d59f7bb-5f70-4530-ae67-6c7c6b164b75",
       "key": "targetUserChatId",
       "value": ""
     }
