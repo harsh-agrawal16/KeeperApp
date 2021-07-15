@@ -159,7 +159,6 @@
                   "        let poi = locations[i]",
                   "        pois.push(poi.name)",
                   "        pm.environment.set('message', poi.name)",
-                  "        postman.setNextRequest('Send Message')",
                   "    }",
                   "",
                   "    pm.environment.set('poi', pois[0])",
@@ -613,12 +612,12 @@
   ],
   "variable": [
     {
-      "id": "7cedf395-d674-4ee7-bb2f-dd436c5f1cb5",
+      "id": "6642ab07-5313-43db-b13a-88067ccbc25e",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "9792212f-b26d-4356-bb70-1c6acfb27022",
+      "id": "a7e552f4-d264-4e83-bf43-9ecf34541224",
       "key": "targetUserChatId",
       "value": ""
     }
