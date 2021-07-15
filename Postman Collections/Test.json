@@ -304,6 +304,19 @@
             "url": null
           },
           "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "430acbd2-85d0-48c0-be50-4dac52f12f3c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
         }
       ],
       "id": "189b62ab-cebb-4081-aacf-efcedd003842"
