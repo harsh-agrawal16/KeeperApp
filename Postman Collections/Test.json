@@ -181,7 +181,35 @@
           "response": []
         }
       ],
-      "id": "3d912461-31b8-4fe9-b399-4f4388ff6151"
+      "id": "3d912461-31b8-4fe9-b399-4f4388ff6151",
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "{{authToken}}"
+        }
+      },
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "95661704-4286-462b-af4d-c2e3498253f8",
+            "type": "text/javascript",
+            "exec": [
+              ""
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "id": "dab5417f-b7f4-44a1-a699-e7ff50232099",
+            "type": "text/javascript",
+            "exec": [
+              ""
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "Telegram Bot",
@@ -409,12 +437,12 @@
   ],
   "variable": [
     {
-      "id": "a15b0ffa-ee59-4635-b8a0-d893b03c5faf",
+      "id": "8c6f1a81-72a2-4841-a938-bf60ace019d7",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "a7349e44-4af1-404d-b12c-94fa85805c1f",
+      "id": "30ecfdf2-a8c8-4af9-863c-5b2dca7b5bd0",
       "key": "targetUserChatId",
       "value": ""
     }
