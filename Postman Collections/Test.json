@@ -150,7 +150,33 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": {
+              "raw": "test.api.amadeus.com/v1/reference-data/locations/pois?latitude={{latitude}}&longitude={{longitude}}",
+              "host": [
+                "test",
+                "api",
+                "amadeus",
+                "com"
+              ],
+              "path": [
+                "v1",
+                "reference-data",
+                "locations",
+                "pois"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "{{latitude}}",
+                  "type": "text"
+                },
+                {
+                  "key": "longitude",
+                  "value": "{{longitude}}",
+                  "type": "text"
+                }
+              ]
+            }
           },
           "response": []
         }
@@ -383,12 +409,12 @@
   ],
   "variable": [
     {
-      "id": "23bc7af0-40cb-476c-9778-a3d938512631",
+      "id": "a15b0ffa-ee59-4635-b8a0-d893b03c5faf",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "34de3982-b174-48cd-b07b-c3ad645805e8",
+      "id": "a7349e44-4af1-404d-b12c-94fa85805c1f",
       "key": "targetUserChatId",
       "value": ""
     }
