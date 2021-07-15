@@ -161,7 +161,7 @@
                   "    }",
                   "    console.log(pois)",
                   "    pm.environment.set('message', pois.toString())",
-                  "    console.log(pois)",
+                  "    console.log(pois.toString())",
                   "}"
                 ],
                 "type": "text/javascript"
@@ -517,12 +517,12 @@
   ],
   "variable": [
     {
-      "id": "2b26a062-cd3e-4edb-823d-5c1a047b1684",
+      "id": "397596f3-937c-422d-9af9-2104c1923d1a",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "1b730a42-dc73-4e12-a52e-f62e4bd86115",
+      "id": "2f51e642-b4fe-4ddf-bc86-50d6c5c91229",
       "key": "targetUserChatId",
       "value": ""
     }
