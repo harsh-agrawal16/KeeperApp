@@ -250,7 +250,8 @@
                 "exec": [
                   "let locations = pm.environment.get('pois')",
                   "console.log(locations)",
-                  "pm.environment.set('poi', locations[x])"
+                  "pm.environment.set('poi', locations[x])",
+                  ""
                 ],
                 "type": "text/javascript"
               }
@@ -639,12 +640,12 @@
   ],
   "variable": [
     {
-      "id": "edf3dd6d-4c05-4d04-b22c-63468463f5f9",
+      "id": "8d5c4d9d-3253-4949-9bf6-c57a478aca3a",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "b0d2396f-e2a0-4a46-bbde-1d5e2ece0886",
+      "id": "7fe1490d-350d-4a5f-b1e8-7299bce62546",
       "key": "targetUserChatId",
       "value": ""
     }
