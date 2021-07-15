@@ -389,7 +389,7 @@
               "script": {
                 "id": "25624b3f-2e95-4608-8cad-18cba5cac90a",
                 "exec": [
-                  ""
+                  "pm.environment.set('message', 'Hey!!!!I have received your command and I am working on it.  Finding point of attractions')"
                 ],
                 "type": "text/javascript"
               }
@@ -516,12 +516,12 @@
   ],
   "variable": [
     {
-      "id": "3ced2a0c-1d73-419c-bc9d-d5108c026e78",
+      "id": "9db9decb-ca12-4545-8a69-7ff9cc1e279e",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "81c46ad6-1fd5-4eda-9304-ebc0272c0849",
+      "id": "00cf79e1-1f25-4234-bd37-a24f95d36e30",
       "key": "targetUserChatId",
       "value": ""
     }
