@@ -161,6 +161,8 @@
                   "        pm.environment.set('message', poi.name)",
                   "        postman.setNextRequest('Send Message')",
                   "    }",
+                  "",
+                  "    pm.environment.set('poi', pois[0])",
                   "    // console.log(pois)",
                   "    // pm.environment.set('message', pois.toString())",
                   "    // console.log(pois.toString())",
@@ -184,7 +186,7 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://test.api.amadeus.com/v1/reference-data/locations/pois?latitude={{latitude}}&longitude={{longitude}}",
+              "raw": "https://test.api.amadeus.com/v1/reference-data/locations/pois?latitude={{latitude}}&longitude={{longitude}}&radius=20",
               "protocol": "https",
               "host": [
                 "test",
@@ -206,6 +208,11 @@
                 {
                   "key": "longitude",
                   "value": "{{longitude}}"
+                },
+                {
+                  "key": "radius",
+                  "value": "20",
+                  "type": "text"
                 }
               ]
             }
@@ -563,12 +570,12 @@
   ],
   "variable": [
     {
-      "id": "228caf98-ea08-4e19-adf9-4e5930685a65",
+      "id": "97e0f971-ce02-4c42-9b31-abac93b9e112",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "ca1b5552-b0e8-41eb-aaad-b6e5abdced91",
+      "id": "acea81e7-e817-47c3-a954-d8229c736fa9",
       "key": "targetUserChatId",
       "value": ""
     }
