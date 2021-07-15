@@ -238,9 +238,6 @@
                   "if(pm.response.code === 200){",
                   "    pm.environment.set('imageURL', pm.response.json().value[0].contentUrl)",
                   "    console.log(pm.response.json().value[0].contentUrl)",
-                  "",
-                  "    let locations = pm.environment.get('pois')",
-                  "console.log(locations)",
                   "}"
                 ],
                 "type": "text/javascript"
@@ -642,12 +639,12 @@
   ],
   "variable": [
     {
-      "id": "4a3668e5-c86e-487e-9443-94a853ac34a6",
+      "id": "5af90911-f2b8-4271-a531-bd36504417b5",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "af66e11d-9b7a-40fb-b828-7d1602dc60f6",
+      "id": "db3402df-7096-474d-970e-385719ca396a",
       "key": "targetUserChatId",
       "value": ""
     }
