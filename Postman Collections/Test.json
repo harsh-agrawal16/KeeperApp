@@ -319,7 +319,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": "{{baseURL}}/deleteWebhook"
           },
           "response": []
         },
@@ -342,7 +342,7 @@
   ],
   "variable": [
     {
-      "id": "88100ad4-cf1d-40bf-b3a3-7609b94a18f7",
+      "id": "6a9d55e8-71f9-43ff-8de5-e3c185c38a2b",
       "key": "targetUser",
       "value": ""
     }
