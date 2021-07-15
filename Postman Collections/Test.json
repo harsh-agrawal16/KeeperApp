@@ -158,10 +158,12 @@
                   "    for(var i=0;i<locations.length;i++){",
                   "        let poi = locations[i]",
                   "        pois.push(poi.name)",
+                  "        pm.environment.set('message', poi.name)",
+                  "        postman.setNextRequest('Send Message')",
                   "    }",
-                  "    console.log(pois)",
-                  "    pm.environment.set('message', pois.toString())",
-                  "    console.log(pois.toString())",
+                  "    // console.log(pois)",
+                  "    // pm.environment.set('message', pois.toString())",
+                  "    // console.log(pois.toString())",
                   "}"
                 ],
                 "type": "text/javascript"
@@ -530,12 +532,12 @@
   ],
   "variable": [
     {
-      "id": "06319c11-e6aa-4d9a-838c-dd5a52a798fc",
+      "id": "0b5dc3dc-44cc-4d9e-adb5-9fc729992754",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "1c2ac4c9-dc06-452d-85bc-5f14be4e3329",
+      "id": "a8bcf03c-852d-4723-bbe6-024acf765848",
       "key": "targetUserChatId",
       "value": ""
     }
