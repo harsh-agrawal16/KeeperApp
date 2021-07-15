@@ -163,7 +163,6 @@
                   "    }",
                   "",
                   "    pm.environment.set('poi', pois[0])",
-                  "    postman.setNextRequest('Search Images')",
                   "    // console.log(pois)",
                   "    // pm.environment.set('message', pois.toString())",
                   "    // console.log(pois.toString())",
@@ -570,12 +569,12 @@
   ],
   "variable": [
     {
-      "id": "57b9c7d3-8eb4-4155-81de-917800de20c6",
+      "id": "566db7d2-752a-42e7-a4f5-88c514289894",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "ed6feebf-602b-40f3-a4cc-5d1e7014887b",
+      "id": "1eb4cfec-0219-451e-8a48-8d2571e1ae38",
       "key": "targetUserChatId",
       "value": ""
     }
