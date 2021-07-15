@@ -55,6 +55,19 @@
             "url": "test.api.amadeus.com/v1"
           },
           "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "5ad4a9d8-8fca-42d5-80df-43cb6f0db156",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
         }
       ],
       "id": "3d912461-31b8-4fe9-b399-4f4388ff6151"
