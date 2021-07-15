@@ -332,7 +332,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": "{{baseURL}}/getWebhookInfo"
           },
           "response": []
         }
@@ -342,7 +342,7 @@
   ],
   "variable": [
     {
-      "id": "6d0b9364-97c7-483e-9d22-7959a62d262b",
+      "id": "88100ad4-cf1d-40bf-b3a3-7609b94a18f7",
       "key": "targetUser",
       "value": ""
     }
