@@ -213,7 +213,7 @@
           "response": []
         },
         {
-          "name": "Get Images",
+          "name": "Search Images",
           "id": "0d5a8ab6-8c91-4b7a-b236-00019c48d6de",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -532,12 +532,12 @@
   ],
   "variable": [
     {
-      "id": "0b5dc3dc-44cc-4d9e-adb5-9fc729992754",
+      "id": "282d9070-a901-4343-99cf-6afeb0d5adae",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "a8bcf03c-852d-4723-bbe6-024acf765848",
+      "id": "c158f573-da07-440a-b35e-d1dc108bd8dc",
       "key": "targetUserChatId",
       "value": ""
     }
