@@ -214,6 +214,7 @@
                   "    let latestUpdate = updates[length - 1]",
                   "    console.log(latestUpdate.message.from.id)",
                   "    pm.environment.set(\"targetUserChatId\", latestUpdate.message.from.id);",
+                  "    pm.environment.set(\"location\" , latestUpdate.text.split(\"/firstcommand \")[0])",
                   "}"
                 ],
                 "type": "text/javascript"
@@ -341,12 +342,12 @@
   ],
   "variable": [
     {
-      "id": "a960423c-8bd7-4ef7-b912-a507d0aa133f",
+      "id": "ab06196d-a0e4-468f-8351-9b29136bebcf",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "cc5d3f49-efad-4400-814b-6b368bd27334",
+      "id": "9837b60c-f767-408b-8190-6d4d715b93cc",
       "key": "targetUserChatId",
       "value": ""
     }
