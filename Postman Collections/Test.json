@@ -656,12 +656,12 @@
   ],
   "variable": [
     {
-      "id": "916f8613-6504-40be-be36-b69b3421daed",
+      "id": "b96c4e71-78d1-4824-8742-ea1fa230dd67",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "29d4accf-e84a-4d57-8a4e-a660884da889",
+      "id": "dbee6b5f-234c-4b9b-9c7d-526474686c2f",
       "key": "targetUserChatId",
       "value": ""
     }
