@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "7232ed56-188f-4e78-a7fa-485fa059696d",
-    "name": "First Collection 1",
+    "name": "First Collection",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -661,12 +661,12 @@
   ],
   "variable": [
     {
-      "id": "295496f5-00ab-47ec-a118-5d095ecd76f6",
+      "id": "bbc8af44-8a31-4de6-bda6-bf81c1c33207",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "41b1a40f-90d0-4620-804b-de205bb3486c",
+      "id": "bcbea4fe-5d84-4d0e-90a6-ac3cc10b1985",
       "key": "targetUserChatId",
       "value": ""
     }
