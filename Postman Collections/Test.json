@@ -12679,6 +12679,204 @@
               "cookie": [],
               "responseTime": "2",
               "body": "success\n"
+            },
+            {
+              "id": "5e5132b8-f133-45ac-8461-ac8dd47c3009",
+              "name": "http://detectportal.firefox.com/success.txt?ipv6",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  }
+                ],
+                "url": {
+                  "raw": "http://detectportal.firefox.com/success.txt?ipv6",
+                  "protocol": "http",
+                  "host": [
+                    "detectportal",
+                    "firefox",
+                    "com"
+                  ],
+                  "path": [
+                    "success.txt"
+                  ],
+                  "query": [
+                    {
+                      "key": "ipv6",
+                      "value": null
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "8"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 16:02:43 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "76197"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "41",
+              "body": "success\n"
+            },
+            {
+              "id": "06729ba4-7df6-4ccc-a6c4-9190f8ff2cd8",
+              "name": "http://detectportal.firefox.com/success.txt?ipv6",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  }
+                ],
+                "url": {
+                  "raw": "http://detectportal.firefox.com/success.txt?ipv6",
+                  "protocol": "http",
+                  "host": [
+                    "detectportal",
+                    "firefox",
+                    "com"
+                  ],
+                  "path": [
+                    "success.txt"
+                  ],
+                  "query": [
+                    {
+                      "key": "ipv6",
+                      "value": null
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "8"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 16:02:43 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "76197"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "39",
+              "body": "success\n"
             }
           ]
         }
@@ -12688,12 +12886,12 @@
   ],
   "variable": [
     {
-      "id": "9b3a07ba-0f51-49f6-88b8-068be3e1d63b",
+      "id": "4920bf3c-877c-4135-92ed-9733ab48d30b",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "e2794360-d134-4027-a674-8d73830e2052",
+      "id": "3f9c890a-97f2-4fed-8142-ce9bf8e35750",
       "key": "targetUserChatId",
       "value": ""
     }
