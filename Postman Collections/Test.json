@@ -9449,105 +9449,6 @@
               "cookie": [],
               "responseTime": "24",
               "body": "success\n"
-            },
-            {
-              "id": "74e1fd6f-609f-47fc-84ea-21b24a26110d",
-              "name": "http://detectportal.firefox.com/success.txt?ipv4",
-              "originalRequest": {
-                "method": "GET",
-                "header": [
-                  {
-                    "key": "host",
-                    "value": "detectportal.firefox.com"
-                  },
-                  {
-                    "key": "user-agent",
-                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
-                  },
-                  {
-                    "key": "accept",
-                    "value": "*/*"
-                  },
-                  {
-                    "key": "accept-language",
-                    "value": "en-US,en;q=0.5"
-                  },
-                  {
-                    "key": "accept-encoding",
-                    "value": "gzip, deflate"
-                  },
-                  {
-                    "key": "connection",
-                    "value": "keep-alive"
-                  },
-                  {
-                    "key": "pragma",
-                    "value": "no-cache"
-                  },
-                  {
-                    "key": "cache-control",
-                    "value": "no-cache"
-                  }
-                ],
-                "url": {
-                  "raw": "http://detectportal.firefox.com/success.txt?ipv4",
-                  "protocol": "http",
-                  "host": [
-                    "detectportal",
-                    "firefox",
-                    "com"
-                  ],
-                  "path": [
-                    "success.txt"
-                  ],
-                  "query": [
-                    {
-                      "key": "ipv4",
-                      "value": null
-                    }
-                  ]
-                }
-              },
-              "status": "OK",
-              "code": 200,
-              "_postman_previewlanguage": "text",
-              "header": [
-                {
-                  "key": "server",
-                  "value": "nginx"
-                },
-                {
-                  "key": "content-length",
-                  "value": "8"
-                },
-                {
-                  "key": "via",
-                  "value": "1.1 google"
-                },
-                {
-                  "key": "date",
-                  "value": "Sun, 17 Apr 2022 16:12:12 GMT"
-                },
-                {
-                  "key": "cache-control",
-                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
-                },
-                {
-                  "key": "age",
-                  "value": "75544"
-                },
-                {
-                  "key": "content-type",
-                  "value": "text/plain"
-                },
-                {
-                  "key": "connection",
-                  "value": "close"
-                }
-              ],
-              "cookie": [],
-              "responseTime": "35",
-              "body": "success\n"
             }
           ]
         }
@@ -9557,12 +9458,12 @@
   ],
   "variable": [
     {
-      "id": "9734f6aa-addc-4c42-aec1-4b345f23a7a5",
+      "id": "a02e44a2-25fb-4d16-bbe7-0d4a5c957d04",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "a28283d4-512a-40a2-856d-63d4d27be3eb",
+      "id": "97bd6bea-ac59-4ef1-9b57-85cd09cc0af2",
       "key": "targetUserChatId",
       "value": ""
     }
