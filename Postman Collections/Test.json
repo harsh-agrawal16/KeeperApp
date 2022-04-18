@@ -14370,18 +14370,265 @@
     },
     {
       "name": "spclient.wg.spotify.com",
-      "item": [],
+      "item": [
+        {
+          "name": "/extended-metadata/v0/extended-metadata",
+          "id": "b05a81de-3f5e-4b49-a180-6f67de496d12",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "host",
+                "value": "spclient.wg.spotify.com"
+              },
+              {
+                "key": "connection",
+                "value": "keep-alive"
+              },
+              {
+                "key": "content-length",
+                "value": "141"
+              },
+              {
+                "key": "accept",
+                "value": "application/protobuf"
+              },
+              {
+                "key": "accept-language",
+                "value": "en"
+              },
+              {
+                "key": "app-platform",
+                "value": "OSX"
+              },
+              {
+                "key": "authorization",
+                "value": "Bearer BQDM594KQrFbVqOqwFJcSb7QXBMN_BMkQqG5YV16rjnq2J91CgLmyvRxucd91melyK8d43-HQRxG5Rd3rGOmK3QQ_rZBpvo0KmH4FE0d5RENFbrgcW6YONV-mP-3wJhUJW4Nx8Fm7CgTCsXeB04mFARD2GWoUR-PBp4v5o4QfU28djgkmkYExwoVzylLDdD6ZpHroNZytzn_0YqXJh0TeoMAak04H_EsfzYfjpPHFwH_FODCf7KuwKtfiJWtmpciDfN5ygYByNyhtm6K895GU1sSNEY3svxuK9UpDcjJ5NHw2at86hX5Crso9TGRvlWr5h0iRlmDj0ca87z1FPQMXVFK1RDMTQ"
+              },
+              {
+                "key": "content-type",
+                "value": "application/protobuf"
+              },
+              {
+                "key": "spotify-app-version",
+                "value": "117700643"
+              },
+              {
+                "key": "user-agent",
+                "value": "Spotify/117700643 OSX/OS X 12.2.1 [x86 8]"
+              },
+              {
+                "key": "client-token",
+                "value": "AAAGIz6Iqq4gj5aHtDd2qTkyb0c1u7cNNfreIdFVi3vCpfe/lT1YSuUVd5VTjdmBfMXYNQINP0ZHtphrmL7JORRhf6+rtUO3mUOJEHr6gdC3q+sdgFi6Uw8Iyd969RoQ2F3lOxMaM7Q216+g5tuvaQ6NFIVMDRSwxujKJ7jZ47HePSAGT6a7G3tGfUYAFMmoq4hWrhzbSgLqGh224ejRsz6nivgJBW71UuyHgF0FXSeP+gL34lPNXwlpfiB5i4KH0heJvzlq1KmfS4hsl91YJfcJlcOI3Z+4L341bZhuksD2A2sgAarXX3qwX2qTPKtvNvaa6fovreEHu+SAMef/GDg="
+              },
+              {
+                "key": "origin",
+                "value": "https://spclient.wg.spotify.com"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "no-cors"
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "accept-encoding",
+                "value": "gzip, deflate, br"
+              },
+              {
+                "key": "x-postman-captr",
+                "value": "2558862"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "\n\u001f\n\u0002IN\u0012\u0007premium\u001a\u0010@�!lR,aS8t��Ƴ��\u00124\n$spotify:track:4zSOtBBAs9EyMUpNwbp6ta\u0012\f\b\n\u0012\b0606e276\u00124\n$spotify:track:3UiC8AF5jVDqAifEcQ2oDC\u0012\f\b\n\u0012\be0df2a81"
+            },
+            "url": "https://spclient.wg.spotify.com/extended-metadata/v0/extended-metadata"
+          },
+          "response": [
+            {
+              "id": "712b2dc2-ff8a-4bfa-9a5f-8d9734932d50",
+              "name": "https://spclient.wg.spotify.com/extended-metadata/v0/extended-metadata",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "spclient.wg.spotify.com"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "content-length",
+                    "value": "141"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "application/protobuf"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en"
+                  },
+                  {
+                    "key": "app-platform",
+                    "value": "OSX"
+                  },
+                  {
+                    "key": "authorization",
+                    "value": "Bearer BQDM594KQrFbVqOqwFJcSb7QXBMN_BMkQqG5YV16rjnq2J91CgLmyvRxucd91melyK8d43-HQRxG5Rd3rGOmK3QQ_rZBpvo0KmH4FE0d5RENFbrgcW6YONV-mP-3wJhUJW4Nx8Fm7CgTCsXeB04mFARD2GWoUR-PBp4v5o4QfU28djgkmkYExwoVzylLDdD6ZpHroNZytzn_0YqXJh0TeoMAak04H_EsfzYfjpPHFwH_FODCf7KuwKtfiJWtmpciDfN5ygYByNyhtm6K895GU1sSNEY3svxuK9UpDcjJ5NHw2at86hX5Crso9TGRvlWr5h0iRlmDj0ca87z1FPQMXVFK1RDMTQ"
+                  },
+                  {
+                    "key": "content-type",
+                    "value": "application/protobuf"
+                  },
+                  {
+                    "key": "spotify-app-version",
+                    "value": "117700643"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Spotify/117700643 OSX/OS X 12.2.1 [x86 8]"
+                  },
+                  {
+                    "key": "client-token",
+                    "value": "AAAGIz6Iqq4gj5aHtDd2qTkyb0c1u7cNNfreIdFVi3vCpfe/lT1YSuUVd5VTjdmBfMXYNQINP0ZHtphrmL7JORRhf6+rtUO3mUOJEHr6gdC3q+sdgFi6Uw8Iyd969RoQ2F3lOxMaM7Q216+g5tuvaQ6NFIVMDRSwxujKJ7jZ47HePSAGT6a7G3tGfUYAFMmoq4hWrhzbSgLqGh224ejRsz6nivgJBW71UuyHgF0FXSeP+gL34lPNXwlpfiB5i4KH0heJvzlq1KmfS4hsl91YJfcJlcOI3Z+4L341bZhuksD2A2sgAarXX3qwX2qTPKtvNvaa6fovreEHu+SAMef/GDg="
+                  },
+                  {
+                    "key": "origin",
+                    "value": "https://spclient.wg.spotify.com"
+                  },
+                  {
+                    "key": "sec-fetch-site",
+                    "value": "same-origin"
+                  },
+                  {
+                    "key": "sec-fetch-mode",
+                    "value": "no-cors"
+                  },
+                  {
+                    "key": "sec-fetch-dest",
+                    "value": "empty"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                  },
+                  {
+                    "key": "x-postman-captr",
+                    "value": "2558862"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "\n\u001f\n\u0002IN\u0012\u0007premium\u001a\u0010@�!lR,aS8t��Ƴ��\u00124\n$spotify:track:4zSOtBBAs9EyMUpNwbp6ta\u0012\f\b\n\u0012\b0606e276\u00124\n$spotify:track:3UiC8AF5jVDqAifEcQ2oDC\u0012\f\b\n\u0012\be0df2a81"
+                },
+                "url": "https://spclient.wg.spotify.com/extended-metadata/v0/extended-metadata"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "",
+              "header": [
+                {
+                  "key": "content-type",
+                  "value": "application/protobuf"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "private, max-age=0"
+                },
+                {
+                  "key": "access-control-allow-origin",
+                  "value": "*"
+                },
+                {
+                  "key": "access-control-allow-headers",
+                  "value": "Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id, X-Spotify-Quicksilver-Uri, client-token, content-access-token, x-cloud-trace-context"
+                },
+                {
+                  "key": "access-control-allow-methods",
+                  "value": "GET, POST, OPTIONS, PUT, DELETE, PATCH"
+                },
+                {
+                  "key": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "key": "access-control-max-age",
+                  "value": "604800"
+                },
+                {
+                  "key": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "key": "strict-transport-security",
+                  "value": "max-age=31536000"
+                },
+                {
+                  "key": "x-content-type-options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "date",
+                  "value": "Mon, 18 Apr 2022 13:13:20 GMT"
+                },
+                {
+                  "key": "server",
+                  "value": "envoy"
+                },
+                {
+                  "key": "via",
+                  "value": "HTTP/2 edgeproxy, 1.1 google"
+                },
+                {
+                  "key": "alt-svc",
+                  "value": "clear"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                },
+                {
+                  "key": "transfer-encoding",
+                  "value": "chunked"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "2",
+              "body": "\u0012�\f\n\u0007\b�\u0001\u0018��\u000f\u0010\n\u001a�\u0006\n\u0015\b�\u0001\u0012\b76d54e2d ��\u0004(��\u000f\u0012$spotify:track:3UiC8AF5jVDqAifEcQ2oDC\u001a�\u0006\n*type.googleapis.com/spotify.metadata.Track\u0012�\u0005\n\u0010�h&��_I[��Xt�r\u0006(\u0012\u000fMellow Mornings\u001a�\u0001\n\u0010�C�F�\u0010K�\u0011�v���B\u0012\u000fMellow Mornings\u001a\u001d\n\u0010f';q��G�ߐ�9��\u001d\u0012\tMr. Jello\u001a\"\n\u0010�#J)֩H*�\u001b�\u001a���t\u0012\u000eFarnell Newton*\u0012freshgoodies music2\u0007\b�\u001f\u0010\u0004\u0018\u001e�\u0001`\n\u001e\n\u0014�gam\u0000\u0000\u001e\u0002�\f\\S3\b�~%0��\u0010\u0000\u0018�\u0004 �\u0004\n\u001e\n\u0014�gam\u0000\u0000HQ�\f\\S3\b�~%0��\u0010\u0001\u0018�\u0001 �\u0001\n\u001e\n\u0014�gam\u0000\u0000�s�\f\\S3\b�~%0��\u0010\u0002\u0018�\n �\n�\u0001\u0012\n\u0010`1Z[��E ��\u0014.-���\"\u001d\n\u0010f';q��G�ߐ�9��\u001d\u0012\tMr. Jello\"\"\n\u0010�#J)֩H*�\u001b�\u001a���t\u0012\u000eFarnell Newton(\u00020\u00028��\u0011@4R\u0014\n\u0004isrc\u0012\fNLX9G2100051b\u0018\n\u0014��I�\u0006�$�8gzgF8.���\u0010\u0010\u0002b\u0018\n\u0014ѻ����,�c[�g,\\�\u0005 M\n�\u0010\u0001b\u0018\n\u0014�\u0003h-sn\u0019���\u001d����>8���\u0010\u0000b\u0018\n\u0014��\u00008\\W��@e}\u0014�\u001a��\\*u�\u0010\rb\u0018\n\u0014)\u001dj1�`1\u0005��%$Y�/�c\u0010\u000bb\u0018\n\u0014罻\u001am�A[���ܡ�<�&F��\u0010\fb\u0018\n\u0014x\u001d�\n�/[Њ{��م�m\u0015i\u0010\nb\u0018\n\u0014���k\u000f�����}*����ޕ��\u0010\bz\u0018\n\u0014<�q9��tU��\"��vo�,\u000fu�\u0010\u0006�\u0001\u0012\n\u0010`1Z[��E ��\u0014.-��ʲ\u0001\u0003zxx�\u0001\u0012\n\u0010x bzd7A5�q�\u0015�\u0014���\u0001\u000fMellow Mornings�\u0001\u0000�\u0002\u001f\n\u0010f';q��G�ߐ�9��\u001d\u0012\tMr. Jello\u0018\u0001�\u0002$\n\u0010�#J)֩H*�\u001b�\u001a���t\u0012\u000eFarnell Newton\u0018\u0001\u001a�\u0005\n\u0015\b�\u0001\u0012\ba858d3ef ��\u0004(��\u000f\u0012$spotify:track:4zSOtBBAs9EyMUpNwbp6ta\u001a�\u0005\n*type.googleapis.com/spotify.metadata.Track\u0012�\u0004\n\u0010�q�yz�B��cK\u001du\u0004_�\u0012\u0006Metric\u001a�\u0001\n\u0010n����M��\u001cܴ��nr\u0012\u0006Metric\u001a\u001e\n\u0010k_�\u00029\u000bO����8�_�\u0012\nErvin Alba*\nErvin Alba2\u0007\b�\u001f\u0010\u0016\u0018$�\u0001`\n\u001e\n\u0014�gam\u0000\u0000\u001e\u0002�a����\f7\u0017�ù\u0010\u0000\u0018�\u0004 �\u0004\n\u001e\n\u0014�gam\u0000\u0000HQ�a����\f7\u0017�ù\u0010\u0001\u0018�\u0001 �\u0001\n\u001e\n\u0014�gam\u0000\u0000�s�a����\f7\u0017�ù\u0010\u0002\u0018�\n �\n�\u0001\u0012\n\u0010��Z��R@w�z�Q�,\r\u001f\"\u001e\n\u0010k_�\u00029\u000bO����8�_�\u0012\nErvin Alba(\u00020\u00028��\u0011@rR\u0014\n\u0004isrc\u0012\fSE5IB2150995b\u0018\n\u0014��D�GlΛ=��\u001c���\u0012b�\u0014�\u0010\u0002b\u0018\n\u0014%�V\u0005�p.���j}_Q�\u001c�Y(�\u0010\u0001b\u0018\n\u0014�tQ�豋T�O\u0011�KP�{rj�Q\u0010\u0000b\u0018\n\u0014x��\u0007'm\u0004\f��\u001d[W9�?�E�\u0010\rb\u0018\n\u0014)��\r�5�\u0019\u0018��!�u\u0005u\u000b��\u0010\u000bb\u0018\n\u0014B\u0016\f\u001a*m����0�� �J��:A\u0010\nb\u0018\n\u0014\u001fӘ\u0017\u0005��m̥]��Lצ=��c\u0010\fb\u0018\n\u0014�Kq��v\u000b���\n�\"ő�as�\u0017\u0010\bz\u0018\n\u0014E�p�\u0017a�{��7�\u0013���\u0004�\u0004\u0010\u0006�\u0001\u0012\n\u0010��Z��R@w�z�Q�,\r\u001f�\u0001\u0003zxx�\u0001\u0012\n\u0010Q;~rT�B���\f���w�\u0001\u0006Metric�\u0001\u0000�\u0002 \n\u0010k_�\u00029\u000bO����8�_�\u0012\nErvin Alba\u0018\u0001"
+            }
+          ]
+        }
+      ],
       "id": "e9916cf1-6eed-429d-97f1-937e0af4f0d7"
+    },
+    {
+      "name": "chat.google.com",
+      "item": [],
+      "id": "1d42c60b-2cab-49ea-98a2-4d23ea7b0bb8"
     }
   ],
   "variable": [
     {
-      "id": "5e84029e-e0a5-475b-a4ac-4a032d27915e",
+      "id": "bca4b5f6-d954-435a-bcdf-dd2bcfbab2ac",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "5e4bd195-705e-40bd-9e86-b0eddbe2fbbb",
+      "id": "a9a0f759-f8cb-43b8-a3ac-5d72ee49e8f2",
       "key": "targetUserChatId",
       "value": ""
     }
