@@ -3739,88 +3739,6 @@
               "cookie": [],
               "responseTime": "35",
               "body": "<meta http-equiv=\"refresh\" content=\"0;url=https://support.mozilla.org/kb/captive-portal\"/>"
-            },
-            {
-              "id": "4ee2198a-e222-4e46-ac27-18ca76abe4ac",
-              "name": "http://detectportal.firefox.com/canonical.html",
-              "originalRequest": {
-                "method": "GET",
-                "header": [
-                  {
-                    "key": "host",
-                    "value": "detectportal.firefox.com"
-                  },
-                  {
-                    "key": "user-agent",
-                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
-                  },
-                  {
-                    "key": "accept",
-                    "value": "*/*"
-                  },
-                  {
-                    "key": "accept-language",
-                    "value": "en-US,en;q=0.5"
-                  },
-                  {
-                    "key": "accept-encoding",
-                    "value": "gzip, deflate"
-                  },
-                  {
-                    "key": "cache-control",
-                    "value": "no-cache"
-                  },
-                  {
-                    "key": "pragma",
-                    "value": "no-cache"
-                  },
-                  {
-                    "key": "connection",
-                    "value": "keep-alive"
-                  }
-                ],
-                "url": "http://detectportal.firefox.com/canonical.html"
-              },
-              "status": "OK",
-              "code": 200,
-              "_postman_previewlanguage": "html",
-              "header": [
-                {
-                  "key": "server",
-                  "value": "nginx"
-                },
-                {
-                  "key": "content-length",
-                  "value": "90"
-                },
-                {
-                  "key": "via",
-                  "value": "1.1 google"
-                },
-                {
-                  "key": "date",
-                  "value": "Sun, 17 Apr 2022 20:30:27 GMT"
-                },
-                {
-                  "key": "cache-control",
-                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
-                },
-                {
-                  "key": "age",
-                  "value": "60134"
-                },
-                {
-                  "key": "content-type",
-                  "value": "text/html"
-                },
-                {
-                  "key": "connection",
-                  "value": "close"
-                }
-              ],
-              "cookie": [],
-              "responseTime": "36",
-              "body": "<meta http-equiv=\"refresh\" content=\"0;url=https://support.mozilla.org/kb/captive-portal\"/>"
             }
           ]
         },
@@ -12309,12 +12227,12 @@
   ],
   "variable": [
     {
-      "id": "90832536-a46f-465a-8174-038a03441ce8",
+      "id": "a8c819ea-7713-406f-a644-2482f36c9721",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "bbea0153-77c8-4492-b4c3-cdb3d119d3a8",
+      "id": "b1e340e5-8eba-407d-b8ee-cd5ab378186c",
       "key": "targetUserChatId",
       "value": ""
     }
