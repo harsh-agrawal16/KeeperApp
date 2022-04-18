@@ -14065,21 +14065,410 @@
               "cookie": [],
               "responseTime": "35",
               "body": "success\n"
+            },
+            {
+              "id": "28931003-3ec1-4d43-989c-811693fd2656",
+              "name": "http://detectportal.firefox.com/success.txt?ipv6",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  }
+                ],
+                "url": {
+                  "raw": "http://detectportal.firefox.com/success.txt?ipv6",
+                  "protocol": "http",
+                  "host": [
+                    "detectportal",
+                    "firefox",
+                    "com"
+                  ],
+                  "path": [
+                    "success.txt"
+                  ],
+                  "query": [
+                    {
+                      "key": "ipv6",
+                      "value": null
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "8"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 16:02:43 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "76199"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "3",
+              "body": "success\n"
+            },
+            {
+              "id": "87c56d2f-4778-44d2-8f81-3b4eeaaed9ef",
+              "name": "http://detectportal.firefox.com/success.txt?ipv6",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  }
+                ],
+                "url": {
+                  "raw": "http://detectportal.firefox.com/success.txt?ipv6",
+                  "protocol": "http",
+                  "host": [
+                    "detectportal",
+                    "firefox",
+                    "com"
+                  ],
+                  "path": [
+                    "success.txt"
+                  ],
+                  "query": [
+                    {
+                      "key": "ipv6",
+                      "value": null
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "8"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 16:02:43 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "76199"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "42",
+              "body": "success\n"
+            },
+            {
+              "id": "0b8afb87-40c0-46a8-8483-4dddccc668d4",
+              "name": "http://detectportal.firefox.com/success.txt?ipv6",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  }
+                ],
+                "url": {
+                  "raw": "http://detectportal.firefox.com/success.txt?ipv6",
+                  "protocol": "http",
+                  "host": [
+                    "detectportal",
+                    "firefox",
+                    "com"
+                  ],
+                  "path": [
+                    "success.txt"
+                  ],
+                  "query": [
+                    {
+                      "key": "ipv6",
+                      "value": null
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "8"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 16:02:43 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "76199"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "41",
+              "body": "success\n"
             }
           ]
         }
       ],
       "id": "56f16ae6-f8e1-418d-b8ea-e09e034e9c78"
+    },
+    {
+      "name": "spclient.wg.spotify.com",
+      "item": [
+        {
+          "name": "/extended-metadata/v0/extended-metadata",
+          "id": "b05a81de-3f5e-4b49-a180-6f67de496d12",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "host",
+                "value": "spclient.wg.spotify.com"
+              },
+              {
+                "key": "connection",
+                "value": "keep-alive"
+              },
+              {
+                "key": "content-length",
+                "value": "141"
+              },
+              {
+                "key": "accept",
+                "value": "application/protobuf"
+              },
+              {
+                "key": "accept-language",
+                "value": "en"
+              },
+              {
+                "key": "app-platform",
+                "value": "OSX"
+              },
+              {
+                "key": "authorization",
+                "value": "Bearer BQDM594KQrFbVqOqwFJcSb7QXBMN_BMkQqG5YV16rjnq2J91CgLmyvRxucd91melyK8d43-HQRxG5Rd3rGOmK3QQ_rZBpvo0KmH4FE0d5RENFbrgcW6YONV-mP-3wJhUJW4Nx8Fm7CgTCsXeB04mFARD2GWoUR-PBp4v5o4QfU28djgkmkYExwoVzylLDdD6ZpHroNZytzn_0YqXJh0TeoMAak04H_EsfzYfjpPHFwH_FODCf7KuwKtfiJWtmpciDfN5ygYByNyhtm6K895GU1sSNEY3svxuK9UpDcjJ5NHw2at86hX5Crso9TGRvlWr5h0iRlmDj0ca87z1FPQMXVFK1RDMTQ"
+              },
+              {
+                "key": "content-type",
+                "value": "application/protobuf"
+              },
+              {
+                "key": "spotify-app-version",
+                "value": "117700643"
+              },
+              {
+                "key": "user-agent",
+                "value": "Spotify/117700643 OSX/OS X 12.2.1 [x86 8]"
+              },
+              {
+                "key": "client-token",
+                "value": "AAAGIz6Iqq4gj5aHtDd2qTkyb0c1u7cNNfreIdFVi3vCpfe/lT1YSuUVd5VTjdmBfMXYNQINP0ZHtphrmL7JORRhf6+rtUO3mUOJEHr6gdC3q+sdgFi6Uw8Iyd969RoQ2F3lOxMaM7Q216+g5tuvaQ6NFIVMDRSwxujKJ7jZ47HePSAGT6a7G3tGfUYAFMmoq4hWrhzbSgLqGh224ejRsz6nivgJBW71UuyHgF0FXSeP+gL34lPNXwlpfiB5i4KH0heJvzlq1KmfS4hsl91YJfcJlcOI3Z+4L341bZhuksD2A2sgAarXX3qwX2qTPKtvNvaa6fovreEHu+SAMef/GDg="
+              },
+              {
+                "key": "origin",
+                "value": "https://spclient.wg.spotify.com"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "no-cors"
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "accept-encoding",
+                "value": "gzip, deflate, br"
+              },
+              {
+                "key": "x-postman-captr",
+                "value": "2558862"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "\n\u001f\n\u0002IN\u0012\u0007premium\u001a\u0010@�!lR,aS8t��Ƴ��\u00124\n$spotify:track:4zSOtBBAs9EyMUpNwbp6ta\u0012\f\b\n\u0012\b0606e276\u00124\n$spotify:track:3UiC8AF5jVDqAifEcQ2oDC\u0012\f\b\n\u0012\be0df2a81"
+            },
+            "url": "https://spclient.wg.spotify.com/extended-metadata/v0/extended-metadata"
+          },
+          "response": []
+        }
+      ],
+      "id": "e9916cf1-6eed-429d-97f1-937e0af4f0d7"
     }
   ],
   "variable": [
     {
-      "id": "fb66116a-d477-4e4c-90c3-45ab4568485c",
+      "id": "e44bd267-5e40-4504-8d13-8b4d70694a70",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "64595e3d-9c33-4973-8d02-ca87c55f424d",
+      "id": "cf97fdcd-65b3-4b38-819f-71db71856aa7",
       "key": "targetUserChatId",
       "value": ""
     }
