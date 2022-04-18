@@ -2099,6 +2099,334 @@
               "cookie": [],
               "responseTime": "45",
               "body": "<meta http-equiv=\"refresh\" content=\"0;url=https://support.mozilla.org/kb/captive-portal\"/>"
+            },
+            {
+              "id": "e34e9cf7-a60d-4c0f-a514-71184d1db7ac",
+              "name": "http://detectportal.firefox.com/canonical.html",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  }
+                ],
+                "url": "http://detectportal.firefox.com/canonical.html"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "html",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "90"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 20:30:27 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "60042"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/html"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "40",
+              "body": "<meta http-equiv=\"refresh\" content=\"0;url=https://support.mozilla.org/kb/captive-portal\"/>"
+            },
+            {
+              "id": "c1d9cfc8-fef6-4d71-91f6-739090ae0ad7",
+              "name": "http://detectportal.firefox.com/canonical.html",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  }
+                ],
+                "url": "http://detectportal.firefox.com/canonical.html"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "html",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "90"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 17:07:21 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "72232"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/html"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "44",
+              "body": "<meta http-equiv=\"refresh\" content=\"0;url=https://support.mozilla.org/kb/captive-portal\"/>"
+            },
+            {
+              "id": "ca4eecd5-af99-49a0-bece-b6a017885858",
+              "name": "http://detectportal.firefox.com/canonical.html",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  }
+                ],
+                "url": "http://detectportal.firefox.com/canonical.html"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "html",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "90"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 17:07:21 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "72233"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/html"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "40",
+              "body": "<meta http-equiv=\"refresh\" content=\"0;url=https://support.mozilla.org/kb/captive-portal\"/>"
+            },
+            {
+              "id": "9e12c2b1-42eb-49cd-936f-cb04359db1b2",
+              "name": "http://detectportal.firefox.com/canonical.html",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  }
+                ],
+                "url": "http://detectportal.firefox.com/canonical.html"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "html",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "90"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 20:30:27 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "60047"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/html"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "34",
+              "body": "<meta http-equiv=\"refresh\" content=\"0;url=https://support.mozilla.org/kb/captive-portal\"/>"
             }
           ]
         },
@@ -3747,6 +4075,402 @@
               "cookie": [],
               "responseTime": "39",
               "body": "success\n"
+            },
+            {
+              "id": "d818efbb-ae60-47ab-b079-d9c22f8728eb",
+              "name": "http://detectportal.firefox.com/success.txt?ipv6",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  }
+                ],
+                "url": {
+                  "raw": "http://detectportal.firefox.com/success.txt?ipv6",
+                  "protocol": "http",
+                  "host": [
+                    "detectportal",
+                    "firefox",
+                    "com"
+                  ],
+                  "path": [
+                    "success.txt"
+                  ],
+                  "query": [
+                    {
+                      "key": "ipv6",
+                      "value": null
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "8"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 16:12:12 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "75535"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "39",
+              "body": "success\n"
+            },
+            {
+              "id": "5c17f2f4-4171-4aa1-ac5f-8cdd5ed4397d",
+              "name": "http://detectportal.firefox.com/success.txt?ipv6",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  }
+                ],
+                "url": {
+                  "raw": "http://detectportal.firefox.com/success.txt?ipv6",
+                  "protocol": "http",
+                  "host": [
+                    "detectportal",
+                    "firefox",
+                    "com"
+                  ],
+                  "path": [
+                    "success.txt"
+                  ],
+                  "query": [
+                    {
+                      "key": "ipv6",
+                      "value": null
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "8"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 16:12:12 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "75535"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "38",
+              "body": "success\n"
+            },
+            {
+              "id": "e83cda32-c886-4fbb-861c-fadc9d9da879",
+              "name": "http://detectportal.firefox.com/success.txt?ipv6",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  }
+                ],
+                "url": {
+                  "raw": "http://detectportal.firefox.com/success.txt?ipv6",
+                  "protocol": "http",
+                  "host": [
+                    "detectportal",
+                    "firefox",
+                    "com"
+                  ],
+                  "path": [
+                    "success.txt"
+                  ],
+                  "query": [
+                    {
+                      "key": "ipv6",
+                      "value": null
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "8"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 16:12:12 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "75535"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "40",
+              "body": "success\n"
+            },
+            {
+              "id": "db94ea88-ee1e-430a-bb92-d0dad9d97fb2",
+              "name": "http://detectportal.firefox.com/success.txt?ipv6",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "detectportal.firefox.com"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:98.0) Gecko/20100101 Firefox/98.0"
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-US,en;q=0.5"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "pragma",
+                    "value": "no-cache"
+                  },
+                  {
+                    "key": "cache-control",
+                    "value": "no-cache"
+                  }
+                ],
+                "url": {
+                  "raw": "http://detectportal.firefox.com/success.txt?ipv6",
+                  "protocol": "http",
+                  "host": [
+                    "detectportal",
+                    "firefox",
+                    "com"
+                  ],
+                  "path": [
+                    "success.txt"
+                  ],
+                  "query": [
+                    {
+                      "key": "ipv6",
+                      "value": null
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "server",
+                  "value": "nginx"
+                },
+                {
+                  "key": "content-length",
+                  "value": "8"
+                },
+                {
+                  "key": "via",
+                  "value": "1.1 google"
+                },
+                {
+                  "key": "date",
+                  "value": "Sun, 17 Apr 2022 16:12:12 GMT"
+                },
+                {
+                  "key": "cache-control",
+                  "value": "public, must-revalidate, max-age=0, s-maxage=86400"
+                },
+                {
+                  "key": "age",
+                  "value": "75535"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain"
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "39",
+              "body": "success\n"
             }
           ]
         }
@@ -3756,12 +4480,12 @@
   ],
   "variable": [
     {
-      "id": "7c95935b-2c85-4d06-8a10-ccf108154907",
+      "id": "eb65d03e-f68e-4495-bf9b-600ba54a5539",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "68a98380-5a2f-4db6-b901-3ea81fe19c80",
+      "id": "5ad609fb-94c7-415c-8c9e-0b7e5c6fda2c",
       "key": "targetUserChatId",
       "value": ""
     }
