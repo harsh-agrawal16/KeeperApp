@@ -27562,96 +27562,6 @@
             "url": "https://app.datadoghq.com/api/v2/query/scalar"
           },
           "response": []
-        },
-        {
-          "name": "/frontend_metrics",
-          "id": "a881128d-26ac-4a72-884d-da681305d41b",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [
-              {
-                "key": "host",
-                "value": "app.datadoghq.com"
-              },
-              {
-                "key": "connection",
-                "value": "keep-alive"
-              },
-              {
-                "key": "content-length",
-                "value": "745"
-              },
-              {
-                "key": "sec-ch-ua",
-                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
-              },
-              {
-                "key": "sec-ch-ua-mobile",
-                "value": "?0"
-              },
-              {
-                "key": "user-agent",
-                "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36"
-              },
-              {
-                "key": "sec-ch-ua-platform",
-                "value": "\"macOS\""
-              },
-              {
-                "key": "content-type",
-                "value": "application/json"
-              },
-              {
-                "key": "accept",
-                "value": "*/*"
-              },
-              {
-                "key": "origin",
-                "value": "https://app.datadoghq.com"
-              },
-              {
-                "key": "sec-fetch-site",
-                "value": "same-origin"
-              },
-              {
-                "key": "sec-fetch-mode",
-                "value": "cors"
-              },
-              {
-                "key": "sec-fetch-dest",
-                "value": "empty"
-              },
-              {
-                "key": "referer",
-                "value": "https://app.datadoghq.com/apm/services?env=none&start=1650284032926&end=1650287632926&paused=false"
-              },
-              {
-                "key": "accept-encoding",
-                "value": "gzip, deflate, br"
-              },
-              {
-                "key": "accept-language",
-                "value": "en-GB,en-US;q=0.9,en;q=0.8"
-              },
-              {
-                "key": "cookie",
-                "value": "datadog-theme=light; _dd_did=d0f62b7f-04f3-43b4-90c9-05fddefe0b3e; _gcl_au=1.1.679748611.1647509328; _mkto_trk=id:875-UVY-685&token:_mch-datadoghq.com-1647509329010-19647; __adroll_fpc=d1d0a1c0aa6cd8a4cb1424a4af1c7916-1647509329963; _rdt_uuid=1647509397055.3e032f3e-4761-4d31-851c-6bc4985b288e; _fbp=fb.1.1647509397309.327102635; __zlcmid=192kmXDF78BQ2w5; _hjSessionUser_1164442=eyJpZCI6ImM3OTc0MWU1LWFiY2MtNTQwZS05Y2FjLWNiMWM0YzEyZDc2NiIsImNyZWF0ZWQiOjE2NDc5MzQwMzEwODUsImV4aXN0aW5nIjpmYWxzZX0=; _hjSessionUser_1021060=eyJpZCI6ImVmMTFhNDQ5LTFjNTctNTAxMi05N2NiLWZkYTZkNWNkZjNmYyIsImNyZWF0ZWQiOjE2NDc1MjM1NDM3OTMsImV4aXN0aW5nIjp0cnVlfQ==; _hjSessionUser_1245093=eyJpZCI6ImQ1NjQ0OGQzLTI5NjEtNWYwZC04MjhkLTllNjYwOTEyYmZmNSIsImNyZWF0ZWQiOjE2NDgxMDI4NjI0NjQsImV4aXN0aW5nIjpmYWxzZX0=; __utmz=118189334.1649079715.17.7.utmcsr=docs.datadoghq.com|utmccn=(referral)|utmcmd=referral|utmcct=/api/latest/metrics/; dogweb=0569612b6de172f9933f9dd17c5eb5b93b21921881c7feff616d4c848f5d1c29ffe93340; _clck=1gzuhs6|1|f0c|0; _uetvid=d0a7cc00a5d411ec9037d94debc3a2fd; _conv_v=vi%3A1*sc%3A2*cs%3A1649095763*fs%3A1647509401*pv%3A2*exp%3A%7B%7D*ps%3A1647509401; __ar_v4=CALNZ2ENGBBPRCBIAWIEJY%3A20220316%3A2%7CAWPYDAH5JJH2JGSUWJVDKM%3A20220316%3A5%7CBPNOSTJTQFA3HBFU5WDRCM%3A20220316%3A5%7CW7YQZCDQRBDVTFJEDOPAKL%3A20220316%3A3; __utmc=118189334; _gid=GA1.2.139073533.1650270320; _ga_KN80RDFSQK=GS1.1.1650270320.32.0.1650270320.0; _ga=GA1.1.1405771919.1647509329; __utma=118189334.582460929.1647509329.1649681735.1650270325.34; intercom-session-x9u0q6k2=TlpOUUZDS1dVZWJqSmZpTVlJaUFOYmhQQWl3RGd4N01ybCtnWnNHcTBLNW92NkNCMTdIbEdVeGxWdmE4eUJETC0tRXhNM2oyYW5kSEt3bW16aGx6aEVRQT09--0c302218a7ed41505863d971ee4c2d0c5bc6c4f6; _sp_id.6425=c2a29dc8-ece1-408d-9a6b-5ae7b210737d.1647509329.65.1650270356.1650127251.ad873f9e-e514-42e2-9e98-79d9a9edd3a4; _dd_s=; __cid=ioq2DiSg6u0zz64Iu7VwmXpbELpnWHniSRut8V4ew59nXOTvGjwhcc4ji-l_E5j7DfGmvkhm-TjtTKOD2RmurkJkwogHdNyYJnfH3n81ltFiVseSI3XSnjlzndEDddKUJjvrkCk76aJqQ4bAekSXxBUsj9ELa9adL0zDkwFy0t5_KJHfeS2G2QFT8rwGN4adI3DD0Q1-xZolMoayImnJnC80l8F6NZbffiOfx2Qsk9EZesCQOHKJxHksiMJ8d67CLH3AkywikIZJHC3x3hPHwXt-wMMvfTq8C1XhvQ87jrgkb8OdalLIkmQ3hrgkb8OdYkmP0QNpz4JiT-vYakvKhDk74YMra86YKWiGvjp-yLYGO-OfLXLIlGY76YEvdeG9ai-IwGO_ssF7NJbAZSqfxno3hsF_IZXBcCuWMUobpvFKG6bxShum8UobpvFKG6bxShum8UobpvFKG6bxSlvmsQpb5vFKG6bxShum8UobprFKG6bxShum8Uobpg4"
-              },
-              {
-                "key": "x-postman-captr",
-                "value": "4866700"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\"version\":2,\"strings\":[\"memory.js_heap_size_limit\",\"is_prod:true\",\"view:/apm/services\",\"statics_version:35.7703557\",\"org_type:customer\",\"memory.total_js_heap_size\",\"memory.used_js_heap_size\",\"perf.count.fetchFromDataSource.receive\",\"dataFormat:table\",\"dataSource:formulas\",\"requestsCount:3\",\"team:cross-page-widgets\",\"perf.count.fetchFromDataSource.complete\",\"xpage.widget.fetch\",\"status:success\",\"perf.count.fetchFromDataSource.start\",\"statsd.flush\"],\"metrics\":{\"gauge\":[[0,4294705152,1,[1,2,3,4]],[5,103848307,1,[1,2,3,4]],[6,89109119,1,[1,2,3,4]]],\"count\":[[7,1,1,[8,9,1,4,10,11,2]],[12,1,1,[8,9,1,4,10,11,2]],[13,1,1,[1,14]],[15,1,1,[8,9,1,4,10,11,2]],[16,1,1,[1,4,3,2]]]},\"_authentication_token\":\"d02cdb5eecb7aeba8e8c476c7588a5ed5a67f1a6\"}"
-            },
-            "url": "https://app.datadoghq.com/frontend_metrics"
-          },
-          "response": []
         }
       ],
       "id": "1c6c20b3-2807-43f5-9853-5edaf9c24b95"
@@ -27659,12 +27569,12 @@
   ],
   "variable": [
     {
-      "id": "103dfe58-4e0a-4393-ab97-d7bdb1dda403",
+      "id": "46e5f962-341d-42ab-9a88-c0b6da404421",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "3de1a436-2066-4998-b131-7109ca3ee0dd",
+      "id": "e1feec73-529d-40cb-8bc2-2f03e3bd711c",
       "key": "targetUserChatId",
       "value": ""
     }
