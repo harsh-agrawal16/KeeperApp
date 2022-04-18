@@ -22824,6 +22824,190 @@
               "cookie": [],
               "responseTime": "1",
               "body": "725\n[[184,[[[null,null,null,null,null,null,null,[[null,null,null,null,null,null,null,null,null,null,null,55,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\"1598388549812791\",[1650287606,834000000]]]]],\"a1d08542-0216-452d-b04e-69cf138571df\"]]],[185,[[[null,null,null,null,null,null,null,[[null,null,null,null,null,null,null,null,null,null,null,55,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\"5540533608240661\",[1650287606,839000000]]]]],\"8bb63190-8f45-4bb5-8398-ed5ce417388c\"]]]]16\n[[186,[\"noop\"]]]16\n[[187,[\"noop\"]]]"
+            },
+            {
+              "id": "89a50ecc-0737-4a0c-b084-4268d5c19846",
+              "name": "https://chat.google.com/u/0/webchannel/events?VER=8&RID=rpc&SID=NwJYvUWNUTlVanjPJh4u5w&CI=0&AID=182&TYPE=xmlhttp&zx=49f3alzetl2q&t=1",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "host",
+                    "value": "chat.google.com"
+                  },
+                  {
+                    "key": "connection",
+                    "value": "keep-alive"
+                  },
+                  {
+                    "key": "sec-ch-ua",
+                    "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\""
+                  },
+                  {
+                    "key": "sec-ch-ua-mobile",
+                    "value": "?0"
+                  },
+                  {
+                    "key": "user-agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36"
+                  },
+                  {
+                    "key": "sec-ch-ua-platform",
+                    "value": "\"macOS\""
+                  },
+                  {
+                    "key": "accept",
+                    "value": "*/*"
+                  },
+                  {
+                    "key": "x-client-data",
+                    "value": "CIm2yQEIprbJAQjEtskBCKmdygEIw9/KAQiTocsBCOvyywEInvnLAQjmhMwBCKWOzAEI0KLMAQiApMwBCLGkzAEIvKbMAQjIpswB"
+                  },
+                  {
+                    "key": "sec-fetch-site",
+                    "value": "same-origin"
+                  },
+                  {
+                    "key": "sec-fetch-mode",
+                    "value": "cors"
+                  },
+                  {
+                    "key": "sec-fetch-dest",
+                    "value": "empty"
+                  },
+                  {
+                    "key": "referer",
+                    "value": "https://chat.google.com/"
+                  },
+                  {
+                    "key": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                  },
+                  {
+                    "key": "accept-language",
+                    "value": "en-GB,en-US;q=0.9,en;q=0.8"
+                  },
+                  {
+                    "key": "cookie",
+                    "value": "COMPASS=dynamite=CgAQ9sf1kgYaYgAJa4lXe8JCtB-SxTkRE7W7LyXI5otJHYBF4JA5Sb7f35JDU-4IqxPcMuheEuKD2L-qtjoxeFzZsuYeiPNM9pYFnQShmWSaq1vh1GLMl_5aRbK6PbS1bGc7qIDUhfYi_jf9; OGPC=19022591-1:19026101-2:; SID=IgiMUGF9deyYBS8zsa2oFgj5Ihr-knUkTk1sgm3CQoHVWjydCsCxiSrAd5ysK2xxTVmOEA.; __Secure-1PSID=IgiMUGF9deyYBS8zsa2oFgj5Ihr-knUkTk1sgm3CQoHVWjydsf9Bi53sU53dkqjJkV6ozw.; __Secure-3PSID=IgiMUGF9deyYBS8zsa2oFgj5Ihr-knUkTk1sgm3CQoHVWjydR4m73Icsduyn6gRhMKhCJA.; HSID=ATupkbJJDRnpoAF-T; SSID=A-Dgh2oU33a7NF5UR; APISID=BUFtu1-csrSH044Z/A_b6OqcodGcxGP48Y; SAPISID=buNrHDDRkuRNUAXx/ASN0ObHBE98hSgnB-; __Secure-1PAPISID=buNrHDDRkuRNUAXx/ASN0ObHBE98hSgnB-; __Secure-3PAPISID=buNrHDDRkuRNUAXx/ASN0ObHBE98hSgnB-; OSID=JQiMUG5AH-aedIRvrMNjBqY1IPPxozoA9uMbxxBjt58xUuqDkubeJr9J9i0MDFVhkSEt9A.; __Secure-OSID=JQiMUG5AH-aedIRvrMNjBqY1IPPxozoA9uMbxxBjt58xUuqD2pP78GVGecWis8VzOTuN-Q.; OTZ=6463721_34_34__34_; AEC=AakniGNpxNd8CGZmtZjX6LOnNYVqOefBwiUq4YclUxp5c4BociOwzcRgAn0; 1P_JAR=2022-04-18-13; NID=511=qHbAn67RNqMEiCq9x_Euc-gKD9oYuxpZU6tbZjWz9MUiEFIo56SspiMichmfr28eAHLCxFK0j5P2D31EVn3osDSkmRudOlVm5Ks0A12yEZbF4UeMX6tD-7GjaApQUC4cYSX6x-K65jv1dlugVaxV9lgdI3ctC4gA77vi3wqqEJn8Uu-fWlBIrUN9XN0nNvqHbFMw1dFfOKvlUNisbz_DlxnnnXddB98TF80-5zHrvg6vai3pPI5cSx8z2T_dr76j; SIDCC=AJi4QfEsMC34OUu1ckZNk1uZcc_qc6Ew19sJS_h2Jqg-BgV7qEyLR8BosqL--PhydY9pMqYc5do; __Secure-3PSIDCC=AJi4QfGrWbSLDBoMlIg7mayizv8BsOgEeLUgqD7GUjG1D_jKGvu_lipLMJ5CYVqctVIdo2kepgs"
+                  },
+                  {
+                    "key": "x-postman-captr",
+                    "value": "550470"
+                  }
+                ],
+                "url": {
+                  "raw": "https://chat.google.com/u/0/webchannel/events?VER=8&RID=rpc&SID=NwJYvUWNUTlVanjPJh4u5w&CI=0&AID=182&TYPE=xmlhttp&zx=49f3alzetl2q&t=1",
+                  "protocol": "https",
+                  "host": [
+                    "chat",
+                    "google",
+                    "com"
+                  ],
+                  "path": [
+                    "u",
+                    "0",
+                    "webchannel",
+                    "events"
+                  ],
+                  "query": [
+                    {
+                      "key": "VER",
+                      "value": "8"
+                    },
+                    {
+                      "key": "RID",
+                      "value": "rpc"
+                    },
+                    {
+                      "key": "SID",
+                      "value": "NwJYvUWNUTlVanjPJh4u5w"
+                    },
+                    {
+                      "key": "CI",
+                      "value": "0"
+                    },
+                    {
+                      "key": "AID",
+                      "value": "182"
+                    },
+                    {
+                      "key": "TYPE",
+                      "value": "xmlhttp"
+                    },
+                    {
+                      "key": "zx",
+                      "value": "49f3alzetl2q"
+                    },
+                    {
+                      "key": "t",
+                      "value": "1"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [
+                {
+                  "key": "cache-control",
+                  "value": "private, max-age=0"
+                },
+                {
+                  "key": "x-content-type-options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "content-type",
+                  "value": "text/plain; charset=utf-8"
+                },
+                {
+                  "key": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "key": "date",
+                  "value": "Mon, 18 Apr 2022 13:13:28 GMT"
+                },
+                {
+                  "key": "server",
+                  "value": "ESF"
+                },
+                {
+                  "key": "x-xss-protection",
+                  "value": "0"
+                },
+                {
+                  "key": "x-frame-options",
+                  "value": "SAMEORIGIN"
+                },
+                {
+                  "key": "expires",
+                  "value": "Mon, 18 Apr 2022 13:13:28 GMT"
+                },
+                {
+                  "key": "set-cookie",
+                  "value": [
+                    "COMPASS=dynamite=CgAQiOT1kgYaYgAJa4lXe8JCtB-SxTkRE7W7LyXI5otJHYBF4JA5Sb7f35JDU-4IqxPcMuheEuKD2L-qtjoxeFzZsuYeiPNM9pYFnQShmWSaq1vh1GLMl_5aRbK6PbS1bGc7qIDUhfYi_jf9; expires=Thu, 28-Apr-2022 13:13:28 GMT; path=/u/0/webchannel/; Secure; HttpOnly; SameSite=none"
+                  ]
+                },
+                {
+                  "key": "alt-svc",
+                  "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+                },
+                {
+                  "key": "connection",
+                  "value": "close"
+                },
+                {
+                  "key": "transfer-encoding",
+                  "value": "chunked"
+                }
+              ],
+              "cookie": [],
+              "responseTime": "1",
+              "body": "725\n[[183,[[[null,null,null,null,null,null,null,[[null,null,null,null,null,null,null,null,null,null,null,55,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\"1598388549812791\",[1650287606,834000000]]]]],\"b56dd0f9-a7c8-4404-b5a0-94adb1063eae\"]]],[184,[[[null,null,null,null,null,null,null,[[null,null,null,null,null,null,null,null,null,null,null,55,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\"5540533608240661\",[1650287606,839000000]]]]],\"2171ab77-7f14-448b-a94f-40fbe22249ff\"]]]]16\n[[185,[\"noop\"]]]16\n[[186,[\"noop\"]]]"
             }
           ]
         }
@@ -33562,16 +33746,21 @@
         }
       ],
       "id": "1f3b8885-94cc-48e6-89f2-d9e5047aab14"
+    },
+    {
+      "name": "signaler-pa.clients6.google.com",
+      "item": [],
+      "id": "9a3808c7-1a20-4012-b6ae-9c856b4c6990"
     }
   ],
   "variable": [
     {
-      "id": "c2e3f224-ee5b-4bfb-bff1-d39570e33c21",
+      "id": "78898749-d254-4764-8d11-b82a56d492ed",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "285aa4c4-a75c-4ef8-8469-b2b137c79738",
+      "id": "f7765175-5bce-4aa3-aa4b-68e0511f52a0",
       "key": "targetUserChatId",
       "value": ""
     }
