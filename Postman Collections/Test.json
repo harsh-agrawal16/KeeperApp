@@ -29721,21 +29721,16 @@
         }
       ],
       "id": "b5d574d9-4a14-4c05-9b01-742d80041e98"
-    },
-    {
-      "name": "bitbucket.org",
-      "item": [],
-      "id": "b75b8f2e-77bc-44cf-981a-3bffc0144cde"
     }
   ],
   "variable": [
     {
-      "id": "5bb09984-89c8-41ee-a3e5-50b65b11fcd8",
+      "id": "7d28ad43-4d36-4861-b909-61d0d18f8c8b",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "03c1e335-038b-4fd9-97ce-f66ddbdd0924",
+      "id": "8587994a-ddc1-473b-b9fc-9b50ee4f25bf",
       "key": "targetUserChatId",
       "value": ""
     }
