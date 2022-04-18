@@ -14370,105 +14370,18 @@
     },
     {
       "name": "spclient.wg.spotify.com",
-      "item": [
-        {
-          "name": "/extended-metadata/v0/extended-metadata",
-          "id": "b05a81de-3f5e-4b49-a180-6f67de496d12",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [
-              {
-                "key": "host",
-                "value": "spclient.wg.spotify.com"
-              },
-              {
-                "key": "connection",
-                "value": "keep-alive"
-              },
-              {
-                "key": "content-length",
-                "value": "141"
-              },
-              {
-                "key": "accept",
-                "value": "application/protobuf"
-              },
-              {
-                "key": "accept-language",
-                "value": "en"
-              },
-              {
-                "key": "app-platform",
-                "value": "OSX"
-              },
-              {
-                "key": "authorization",
-                "value": "Bearer BQDM594KQrFbVqOqwFJcSb7QXBMN_BMkQqG5YV16rjnq2J91CgLmyvRxucd91melyK8d43-HQRxG5Rd3rGOmK3QQ_rZBpvo0KmH4FE0d5RENFbrgcW6YONV-mP-3wJhUJW4Nx8Fm7CgTCsXeB04mFARD2GWoUR-PBp4v5o4QfU28djgkmkYExwoVzylLDdD6ZpHroNZytzn_0YqXJh0TeoMAak04H_EsfzYfjpPHFwH_FODCf7KuwKtfiJWtmpciDfN5ygYByNyhtm6K895GU1sSNEY3svxuK9UpDcjJ5NHw2at86hX5Crso9TGRvlWr5h0iRlmDj0ca87z1FPQMXVFK1RDMTQ"
-              },
-              {
-                "key": "content-type",
-                "value": "application/protobuf"
-              },
-              {
-                "key": "spotify-app-version",
-                "value": "117700643"
-              },
-              {
-                "key": "user-agent",
-                "value": "Spotify/117700643 OSX/OS X 12.2.1 [x86 8]"
-              },
-              {
-                "key": "client-token",
-                "value": "AAAGIz6Iqq4gj5aHtDd2qTkyb0c1u7cNNfreIdFVi3vCpfe/lT1YSuUVd5VTjdmBfMXYNQINP0ZHtphrmL7JORRhf6+rtUO3mUOJEHr6gdC3q+sdgFi6Uw8Iyd969RoQ2F3lOxMaM7Q216+g5tuvaQ6NFIVMDRSwxujKJ7jZ47HePSAGT6a7G3tGfUYAFMmoq4hWrhzbSgLqGh224ejRsz6nivgJBW71UuyHgF0FXSeP+gL34lPNXwlpfiB5i4KH0heJvzlq1KmfS4hsl91YJfcJlcOI3Z+4L341bZhuksD2A2sgAarXX3qwX2qTPKtvNvaa6fovreEHu+SAMef/GDg="
-              },
-              {
-                "key": "origin",
-                "value": "https://spclient.wg.spotify.com"
-              },
-              {
-                "key": "sec-fetch-site",
-                "value": "same-origin"
-              },
-              {
-                "key": "sec-fetch-mode",
-                "value": "no-cors"
-              },
-              {
-                "key": "sec-fetch-dest",
-                "value": "empty"
-              },
-              {
-                "key": "accept-encoding",
-                "value": "gzip, deflate, br"
-              },
-              {
-                "key": "x-postman-captr",
-                "value": "2558862"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "\n\u001f\n\u0002IN\u0012\u0007premium\u001a\u0010@�!lR,aS8t��Ƴ��\u00124\n$spotify:track:4zSOtBBAs9EyMUpNwbp6ta\u0012\f\b\n\u0012\b0606e276\u00124\n$spotify:track:3UiC8AF5jVDqAifEcQ2oDC\u0012\f\b\n\u0012\be0df2a81"
-            },
-            "url": "https://spclient.wg.spotify.com/extended-metadata/v0/extended-metadata"
-          },
-          "response": []
-        }
-      ],
+      "item": [],
       "id": "e9916cf1-6eed-429d-97f1-937e0af4f0d7"
     }
   ],
   "variable": [
     {
-      "id": "e44bd267-5e40-4504-8d13-8b4d70694a70",
+      "id": "5e84029e-e0a5-475b-a4ac-4a032d27915e",
       "key": "targetUser",
       "value": ""
     },
     {
-      "id": "cf97fdcd-65b3-4b38-819f-71db71856aa7",
+      "id": "5e4bd195-705e-40bd-9e86-b0eddbe2fbbb",
       "key": "targetUserChatId",
       "value": ""
     }
